@@ -1,0 +1,11 @@
+activity_group_code,activity_group_name,default_service_line,default_care_type,official_classification_flag
+AG01,Complex Medical,Medical,Inpatient,N
+AG02,General Medical,Medical,Inpatient,N
+AG03,Major Surgical,Surgical,Inpatient,N
+AG04,Minor Surgical or Same-day,Surgical,Same-day,N
+AG05,Maternity,Women's and Children's,Inpatient,N
+AG06,Paediatric,Women's and Children's,Inpatient,N
+AG07,Mental Health,Mental Health,Inpatient,N
+AG08,Emergency or Non-admitted,Emergency,Emergency,N
+AG09,Outpatient,Outpatients,Outpatient,N
+UNCLASSIFIED,Unclassified exception,,,N

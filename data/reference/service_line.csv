@@ -1,0 +1,7 @@
+service_line,description
+Medical,Admitted medical services
+Surgical,Admitted and same-day surgical services
+Women's and Children's,Maternity and paediatric services
+Mental Health,Admitted mental health services
+Emergency,Emergency care
+Outpatients,Non-admitted outpatient care

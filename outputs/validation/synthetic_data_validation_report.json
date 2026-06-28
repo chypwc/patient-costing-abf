@@ -1,0 +1,604 @@
+{
+  "generated_at_utc": "2026-06-22T08:28:51Z",
+  "overall_status": "PASS",
+  "result_counts": {
+    "PASS": 48,
+    "EXPECTED": 6
+  },
+  "checks": [
+    {
+      "check_id": "RAW-FILE-patient_encounter.csv",
+      "area": "Raw files",
+      "status": "PASS",
+      "message": "File and required columns are present",
+      "observed": "6345",
+      "expected": ""
+    },
+    {
+      "check_id": "RAW-FILE-resource_usage.csv",
+      "area": "Raw files",
+      "status": "PASS",
+      "message": "File and required columns are present",
+      "observed": "6850",
+      "expected": ""
+    },
+    {
+      "check_id": "RAW-FILE-direct_cost_detail.csv",
+      "area": "Raw files",
+      "status": "PASS",
+      "message": "File and required columns are present",
+      "observed": "841",
+      "expected": ""
+    },
+    {
+      "check_id": "RAW-FILE-general_ledger_transaction.csv",
+      "area": "Raw files",
+      "status": "PASS",
+      "message": "File and required columns are present",
+      "observed": "257",
+      "expected": ""
+    },
+    {
+      "check_id": "REF-FILE-cost_centre.csv",
+      "area": "Reference files",
+      "status": "PASS",
+      "message": "File and required columns are present",
+      "observed": "17",
+      "expected": ""
+    },
+    {
+      "check_id": "REF-FILE-account_mapping.csv",
+      "area": "Reference files",
+      "status": "PASS",
+      "message": "File and required columns are present",
+      "observed": "14",
+      "expected": ""
+    },
+    {
+      "check_id": "REF-FILE-service_line.csv",
+      "area": "Reference files",
+      "status": "PASS",
+      "message": "File and required columns are present",
+      "observed": "6",
+      "expected": ""
+    },
+    {
+      "check_id": "REF-FILE-care_type.csv",
+      "area": "Reference files",
+      "status": "PASS",
+      "message": "File and required columns are present",
+      "observed": "4",
+      "expected": ""
+    },
+    {
+      "check_id": "REF-FILE-activity_group.csv",
+      "area": "Reference files",
+      "status": "PASS",
+      "message": "File and required columns are present",
+      "observed": "10",
+      "expected": ""
+    },
+    {
+      "check_id": "REF-FILE-allocation_rule.csv",
+      "area": "Reference files",
+      "status": "PASS",
+      "message": "File and required columns are present",
+      "observed": "12",
+      "expected": ""
+    },
+    {
+      "check_id": "REF-FILE-reporting_period.csv",
+      "area": "Reference files",
+      "status": "PASS",
+      "message": "File and required columns are present",
+      "observed": "12",
+      "expected": ""
+    },
+    {
+      "check_id": "REF-FILE-abf_activity_group.csv",
+      "area": "Reference files",
+      "status": "PASS",
+      "message": "File and required columns are present",
+      "observed": "9",
+      "expected": ""
+    },
+    {
+      "check_id": "REF-FILE-abf_adjustment_rule.csv",
+      "area": "Reference files",
+      "status": "PASS",
+      "message": "File and required columns are present",
+      "observed": "5",
+      "expected": ""
+    },
+    {
+      "check_id": "CON-FILE-control_row_count.csv",
+      "area": "Control files",
+      "status": "PASS",
+      "message": "File and required columns are present",
+      "observed": "15",
+      "expected": ""
+    },
+    {
+      "check_id": "CON-FILE-control_gl_monthly.csv",
+      "area": "Control files",
+      "status": "PASS",
+      "message": "File and required columns are present",
+      "observed": "12",
+      "expected": ""
+    },
+    {
+      "check_id": "CON-FILE-control_gl_cost_centre.csv",
+      "area": "Control files",
+      "status": "PASS",
+      "message": "File and required columns are present",
+      "observed": "194",
+      "expected": ""
+    },
+    {
+      "check_id": "CON-FILE-expected_data_quality_issue.csv",
+      "area": "Control files",
+      "status": "PASS",
+      "message": "File and required columns are present",
+      "observed": "5",
+      "expected": ""
+    },
+    {
+      "check_id": "EXP-FILE-abf_encounter_funding.csv",
+      "area": "Expected outputs",
+      "status": "PASS",
+      "message": "File and required columns are present",
+      "observed": "6345",
+      "expected": ""
+    },
+    {
+      "check_id": "EXP-FILE-abf_monthly_control_total.csv",
+      "area": "Expected outputs",
+      "status": "PASS",
+      "message": "File and required columns are present",
+      "observed": "12",
+      "expected": ""
+    },
+    {
+      "check_id": "SRC-ROW-CONTROL",
+      "area": "Source controls",
+      "status": "PASS",
+      "message": "All controlled source row counts agree",
+      "observed": "15",
+      "expected": ""
+    },
+    {
+      "check_id": "ENC-UNIQUE",
+      "area": "Encounters",
+      "status": "PASS",
+      "message": "Encounter IDs are unique",
+      "observed": "6345",
+      "expected": ""
+    },
+    {
+      "check_id": "ENC-SERVICES",
+      "area": "Encounters",
+      "status": "PASS",
+      "message": "All expected service lines are represented",
+      "observed": "",
+      "expected": ""
+    },
+    {
+      "check_id": "ENC-CARE",
+      "area": "Encounters",
+      "status": "PASS",
+      "message": "All expected care types are represented",
+      "observed": "",
+      "expected": ""
+    },
+    {
+      "check_id": "ENC-MONTHS",
+      "area": "Encounters",
+      "status": "PASS",
+      "message": "All 12 reporting months are represented",
+      "observed": "",
+      "expected": ""
+    },
+    {
+      "check_id": "ENC-DATES",
+      "area": "Encounters",
+      "status": "PASS",
+      "message": "Encounter dates and LOS are internally valid",
+      "observed": "",
+      "expected": ""
+    },
+    {
+      "check_id": "ENC-AGE",
+      "area": "Encounters",
+      "status": "PASS",
+      "message": "Encounter ages are within 0-110",
+      "observed": "",
+      "expected": ""
+    },
+    {
+      "check_id": "ENC-CARE-LOS",
+      "area": "Encounters",
+      "status": "PASS",
+      "message": "Care type and LOS are consistent",
+      "observed": "",
+      "expected": ""
+    },
+    {
+      "check_id": "ENC-UNCLASSIFIED",
+      "area": "Encounters",
+      "status": "EXPECTED",
+      "message": "One deliberate unclassified encounter is present",
+      "observed": "ENC0006345",
+      "expected": ""
+    },
+    {
+      "check_id": "ENC-MULTI-MONTH",
+      "area": "Encounters",
+      "status": "PASS",
+      "message": "Multi-month encounter resource records are present",
+      "observed": "505",
+      "expected": ""
+    },
+    {
+      "check_id": "RES-UNIQUE",
+      "area": "Resources",
+      "status": "PASS",
+      "message": "Resource usage IDs are unique",
+      "observed": "6850",
+      "expected": ""
+    },
+    {
+      "check_id": "RES-FK",
+      "area": "Resources",
+      "status": "PASS",
+      "message": "All resource rows reference valid encounters",
+      "observed": "",
+      "expected": ""
+    },
+    {
+      "check_id": "RES-NEG-PATH",
+      "area": "Resources",
+      "status": "EXPECTED",
+      "message": "One deliberate negative pathology driver is present",
+      "observed": "1",
+      "expected": ""
+    },
+    {
+      "check_id": "RES-NEG-OTHER",
+      "area": "Resources",
+      "status": "PASS",
+      "message": "No unexpected negative resource measures",
+      "observed": "",
+      "expected": ""
+    },
+    {
+      "check_id": "RES-BED-DAY",
+      "area": "Resources",
+      "status": "PASS",
+      "message": "Bed days are confined to admitted activity",
+      "observed": "15117",
+      "expected": ""
+    },
+    {
+      "check_id": "RES-THEATRE",
+      "area": "Resources",
+      "status": "PASS",
+      "message": "Theatre minutes are concentrated in procedural services",
+      "observed": "100.0%",
+      "expected": ""
+    },
+    {
+      "check_id": "GL-UNIQUE",
+      "area": "Financial",
+      "status": "PASS",
+      "message": "GL transaction IDs are unique",
+      "observed": "257",
+      "expected": ""
+    },
+    {
+      "check_id": "GL-UNKNOWN-CC",
+      "area": "Financial",
+      "status": "EXPECTED",
+      "message": "One deliberate unmapped cost centre is present",
+      "observed": "25000.00",
+      "expected": ""
+    },
+    {
+      "check_id": "GL-UNKNOWN-ACCOUNT",
+      "area": "Financial",
+      "status": "PASS",
+      "message": "All GL natural accounts are mapped",
+      "observed": "",
+      "expected": ""
+    },
+    {
+      "check_id": "GL-NEGATIVE",
+      "area": "Financial",
+      "status": "PASS",
+      "message": "Negative GL amounts are classified as credits or reversals",
+      "observed": "2",
+      "expected": ""
+    },
+    {
+      "check_id": "GL-MONTH-CONTROL",
+      "area": "Financial",
+      "status": "PASS",
+      "message": "Monthly GL totals match controls",
+      "observed": "12",
+      "expected": ""
+    },
+    {
+      "check_id": "GL-CC-CONTROL",
+      "area": "Financial",
+      "status": "PASS",
+      "message": "Cost-centre GL totals match controls",
+      "observed": "194",
+      "expected": ""
+    },
+    {
+      "check_id": "GL-DIRECT-CONTROL",
+      "area": "Financial",
+      "status": "PASS",
+      "message": "Direct-cost detail agrees with GL controls",
+      "observed": "",
+      "expected": ""
+    },
+    {
+      "check_id": "DIR-FAILED",
+      "area": "Financial",
+      "status": "EXPECTED",
+      "message": "One deliberate failed direct assignment is present",
+      "observed": "900.00",
+      "expected": ""
+    },
+    {
+      "check_id": "GL-ZERO-DRIVER",
+      "area": "Financial",
+      "status": "EXPECTED",
+      "message": "Deliberate zero-driver cost pool is present",
+      "observed": "45000.00",
+      "expected": ""
+    },
+    {
+      "check_id": "ABF-POPULATION",
+      "area": "ABF",
+      "status": "PASS",
+      "message": "ABF population exactly matches the encounter population",
+      "observed": "6345",
+      "expected": ""
+    },
+    {
+      "check_id": "ABF-UNFUNDED",
+      "area": "ABF",
+      "status": "EXPECTED",
+      "message": "One unclassified encounter is held for funding review",
+      "observed": "ENC0006345",
+      "expected": ""
+    },
+    {
+      "check_id": "ABF-CALC",
+      "area": "ABF",
+      "status": "PASS",
+      "message": "Encounter funding calculations are arithmetically consistent",
+      "observed": "",
+      "expected": ""
+    },
+    {
+      "check_id": "ABF-PRICE",
+      "area": "ABF",
+      "status": "PASS",
+      "message": "One synthetic base price is applied consistently",
+      "observed": "10750.00",
+      "expected": ""
+    },
+    {
+      "check_id": "ABF-MONTH-CONTROL",
+      "area": "ABF",
+      "status": "PASS",
+      "message": "Monthly ABF controls agree",
+      "observed": "12",
+      "expected": ""
+    },
+    {
+      "check_id": "ABF-GROUPS",
+      "area": "ABF",
+      "status": "PASS",
+      "message": "All calculated funding rows have group references",
+      "observed": "",
+      "expected": ""
+    },
+    {
+      "check_id": "PLAUS-VOLUME",
+      "area": "Plausibility",
+      "status": "PASS",
+      "message": "Annual encounter volume is suitable for the portfolio scale",
+      "observed": "6345",
+      "expected": ""
+    },
+    {
+      "check_id": "PLAUS-SERVICE-MIX",
+      "area": "Plausibility",
+      "status": "PASS",
+      "message": "All service lines have usable analytical populations",
+      "observed": "",
+      "expected": ""
+    },
+    {
+      "check_id": "PLAUS-MONTH-VOLUME",
+      "area": "Plausibility",
+      "status": "PASS",
+      "message": "Monthly encounter volumes vary without implausible discontinuity",
+      "observed": "460-610",
+      "expected": ""
+    },
+    {
+      "check_id": "PLAUS-COST-FUNDING",
+      "area": "Plausibility",
+      "status": "PASS",
+      "message": "Portfolio-wide synthetic funding is reasonably calibrated to the GL cost base",
+      "observed": "97.0%",
+      "expected": ""
+    }
+  ],
+  "statistics": {
+    "encounter_count": 6345,
+    "encounters_by_month": {
+      "2024-07-01": 460,
+      "2024-08-01": 475,
+      "2024-09-01": 490,
+      "2024-10-01": 505,
+      "2024-11-01": 520,
+      "2024-12-01": 535,
+      "2025-01-01": 550,
+      "2025-02-01": 545,
+      "2025-03-01": 610,
+      "2025-04-01": 570,
+      "2025-05-01": 555,
+      "2025-06-01": 530
+    },
+    "encounters_by_service_line": {
+      "Emergency": 1024,
+      "Medical": 2189,
+      "Mental Health": 449,
+      "Outpatients": 310,
+      "Surgical": 1356,
+      "Women's and Children's": 1017
+    },
+    "encounters_by_care_type": {
+      "Emergency": 1024,
+      "Inpatient": 4264,
+      "Outpatient": 310,
+      "Same-day": 747
+    },
+    "encounters_by_activity_group": {
+      "AG01": 877,
+      "AG02": 1311,
+      "AG03": 609,
+      "AG04": 747,
+      "AG05": 518,
+      "AG06": 499,
+      "AG07": 449,
+      "AG08": 1024,
+      "AG09": 310,
+      "UNCLASSIFIED": 1
+    },
+    "age_summary": {
+      "count": 6345,
+      "min": 0.0,
+      "mean": 49.527,
+      "median": 48.0,
+      "p95": 88.0,
+      "max": 92.0
+    },
+    "los_summary_inpatient": {
+      "count": 4264,
+      "min": 1.0,
+      "mean": 3.511,
+      "median": 3.0,
+      "p95": 9.0,
+      "max": 27.0
+    },
+    "resource_row_count": 6850,
+    "resource_summaries": {
+      "bed_days": {
+        "count": 6850,
+        "min": 0.0,
+        "mean": 2.207,
+        "median": 2.0,
+        "p95": 7.0,
+        "max": 22.0
+      },
+      "theatre_minutes": {
+        "count": 6850,
+        "min": 0.0,
+        "mean": 28.712,
+        "median": 0.0,
+        "p95": 175.55,
+        "max": 413.0
+      },
+      "imaging_weighted_units": {
+        "count": 6850,
+        "min": 0.0,
+        "mean": 1.137,
+        "median": 1.0,
+        "p95": 3.0,
+        "max": 5.0
+      },
+      "pathology_weighted_units": {
+        "count": 6849,
+        "min": 0.0,
+        "mean": 4.41,
+        "median": 4.0,
+        "p95": 9.0,
+        "max": 18.0
+      },
+      "pharmacy_units": {
+        "count": 6850,
+        "min": 0.0,
+        "mean": 7.737,
+        "median": 6.0,
+        "p95": 18.0,
+        "max": 37.0
+      },
+      "medical_service_units": {
+        "count": 6850,
+        "min": 1.0,
+        "mean": 7.64,
+        "median": 6.0,
+        "p95": 19.0,
+        "max": 44.0
+      },
+      "allied_health_units": {
+        "count": 6850,
+        "min": 0.0,
+        "mean": 4.02,
+        "median": 3.0,
+        "p95": 11.0,
+        "max": 24.0
+      }
+    },
+    "gl_transaction_count": 257,
+    "total_signed_gl": "82837467.56",
+    "total_direct_cost": "1649736.61",
+    "monthly_gl_summary": {
+      "count": 12,
+      "min": 6669778.86,
+      "mean": 6903122.297,
+      "median": 6910714.64,
+      "p95": 7133719.198,
+      "max": 7199389.22
+    },
+    "gl_by_month": {
+      "2024-07-01": "6685935.19",
+      "2024-08-01": "6669778.86",
+      "2024-09-01": "6760804.47",
+      "2024-10-01": "6811344.69",
+      "2024-11-01": "6854938.51",
+      "2024-12-01": "6918733.13",
+      "2025-01-01": "6923951.14",
+      "2025-02-01": "6961125.25",
+      "2025-03-01": "7199389.22",
+      "2025-04-01": "7068781.77",
+      "2025-05-01": "7079989.18",
+      "2025-06-01": "6902696.15"
+    },
+    "gl_adjustment_types": {
+      "Credit": 1,
+      "Journal adjustment": 1,
+      "Reversal": 1,
+      "Standard expense": 254
+    },
+    "funded_encounter_count": 6344,
+    "unfunded_review_count": 1,
+    "total_synthetic_nwau": "7475.508562",
+    "total_synthetic_funding": "80361719.43",
+    "synthetic_nwau_summary": {
+      "count": 6344,
+      "min": 0.18,
+      "mean": 1.178,
+      "median": 0.9,
+      "p95": 3.2,
+      "max": 3.528
+    },
+    "funding_to_gl_ratio": "0.9701"
+  }
+}

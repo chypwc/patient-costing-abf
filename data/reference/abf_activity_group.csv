@@ -1,0 +1,10 @@
+activity_group_code,activity_group_name,service_stream,synthetic_base_weight,high_length_of_stay_trim_days,synthetic_outlier_nwau_per_day,official_price_weight_flag
+AG01,Complex Medical,Admitted acute,1.8500,12,0.0550,N
+AG02,General Medical,Admitted acute,0.9000,7,0.0400,N
+AG03,Major Surgical,Admitted acute,3.2000,14,0.0700,N
+AG04,Minor Surgical or Same-day,Admitted acute,0.7500,1,0.0300,N
+AG05,Maternity,Admitted acute,1.1500,6,0.0450,N
+AG06,Paediatric,Admitted acute,1.0500,8,0.0450,N
+AG07,Mental Health,Mental health,1.4000,21,0.0350,N
+AG08,Emergency,Emergency,0.3500,0,0.0000,N
+AG09,Outpatient,Non-admitted,0.1800,0,0.0000,N

@@ -1,0 +1,6 @@
+adjustment_code,description,factor,application,official_adjustment_flag
+INDIGENOUS,Synthetic demonstration adjustment for Indigenous status,1.0400,Multiplicative,N
+REMOTE,Synthetic demonstration adjustment for remote residence,1.0600,Multiplicative,N
+PAEDIATRIC,Synthetic demonstration adjustment for admitted patients under 18,1.0500,Multiplicative,N
+SAME_DAY,Synthetic same-day adjustment for AG04,0.9200,Multiplicative,N
+LONG_STAY,Synthetic additional weighted activity above the group high trim point,Varies by group,Additive NWAU,N

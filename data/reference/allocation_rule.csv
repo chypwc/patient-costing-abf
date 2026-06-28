@@ -1,0 +1,13 @@
+allocation_rule_id,cost_pool_code,cost_category,allocation_driver,eligible_scope,business_rationale,effective_from,effective_to,active_flag
+RULE_WARD,WARD_NURSING,Nursing,bed_days,Inpatient|Same-day,Ward nursing use follows admitted bed days,2024-07-01,2025-06-30,Y
+RULE_EMERGENCY,EMERGENCY_CARE,Nursing,encounter_count,Emergency,Emergency nursing follows emergency encounters,2024-07-01,2025-06-30,Y
+RULE_OUTPATIENT,OUTPATIENT_CARE,Nursing,encounter_count,Outpatient,Clinic nursing follows outpatient encounters,2024-07-01,2025-06-30,Y
+RULE_MEDICAL,MEDICAL,Medical,medical_service_units,All,Medical effort follows weighted medical service units,2024-07-01,2025-06-30,Y
+RULE_THEATRE,THEATRE,Theatre,theatre_minutes,Surgical,Theatre resource use follows procedure duration,2024-07-01,2025-06-30,Y
+RULE_IMAGING,IMAGING,Imaging,imaging_weighted_units,All,Imaging use follows weighted examinations,2024-07-01,2025-06-30,Y
+RULE_PATHOLOGY,PATHOLOGY,Pathology,pathology_weighted_units,All,Pathology use follows weighted tests,2024-07-01,2025-06-30,Y
+RULE_PHARMACY,PHARMACY,Pharmacy,pharmacy_units,All,Shared pharmacy cost follows dispensed units,2024-07-01,2025-06-30,Y
+RULE_ALLIED,ALLIED_HEALTH,Allied Health,allied_health_units,All,Allied health use follows service units,2024-07-01,2025-06-30,Y
+RULE_ALLIED_SPECIAL,ALLIED_SPECIAL,Allied Health,allied_health_units,Specialist Rehabilitation,Deliberate zero-driver test pool,2024-07-01,2025-06-30,Y
+RULE_ADMIN,PATIENT_ADMIN,Patient Administration,encounter_count,All,Administration follows encounter volume,2024-07-01,2025-06-30,Y
+RULE_OVERHEAD,OVERHEAD,Overhead,pre_overhead_cost,All,Overhead follows pre-overhead patient-care cost,2024-07-01,2025-06-30,Y

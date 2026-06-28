@@ -1,0 +1,16 @@
+data_area,file_name,expected_row_count
+expected_outputs,abf_encounter_funding.csv,6345
+expected_outputs,abf_monthly_control_total.csv,12
+raw,direct_cost_detail.csv,841
+raw,general_ledger_transaction.csv,257
+raw,patient_encounter.csv,6345
+raw,resource_usage.csv,6850
+reference,abf_activity_group.csv,9
+reference,abf_adjustment_rule.csv,5
+reference,account_mapping.csv,14
+reference,activity_group.csv,10
+reference,allocation_rule.csv,12
+reference,care_type.csv,4
+reference,cost_centre.csv,17
+reference,reporting_period.csv,12
+reference,service_line.csv,6

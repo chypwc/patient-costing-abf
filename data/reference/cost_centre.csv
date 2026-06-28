@@ -1,0 +1,18 @@
+cost_centre_id,cost_centre_name,service_line,cost_pool_code,active_flag,effective_from,effective_to
+CC_MED_WARD,Medical Ward,Medical,WARD_NURSING,Y,2024-07-01,2025-06-30
+CC_SURG_WARD,Surgical Ward,Surgical,WARD_NURSING,Y,2024-07-01,2025-06-30
+CC_WCH_WARD,Women's and Children's Ward,Women's and Children's,WARD_NURSING,Y,2024-07-01,2025-06-30
+CC_MH_WARD,Mental Health Ward,Mental Health,WARD_NURSING,Y,2024-07-01,2025-06-30
+CC_EMERGENCY,Emergency Department,Emergency,EMERGENCY_CARE,Y,2024-07-01,2025-06-30
+CC_OUTPATIENT,Outpatient Clinics,Outpatients,OUTPATIENT_CARE,Y,2024-07-01,2025-06-30
+CC_MEDICAL,Medical Workforce,All,MEDICAL,Y,2024-07-01,2025-06-30
+CC_THEATRE,Operating Theatre,Surgical,THEATRE,Y,2024-07-01,2025-06-30
+CC_IMAGING,Medical Imaging,All,IMAGING,Y,2024-07-01,2025-06-30
+CC_PATHOLOGY,Pathology Laboratory,All,PATHOLOGY,Y,2024-07-01,2025-06-30
+CC_PHARMACY,Pharmacy,All,PHARMACY,Y,2024-07-01,2025-06-30
+CC_ALLIED,Allied Health,All,ALLIED_HEALTH,Y,2024-07-01,2025-06-30
+CC_ALLIED_UNUSED,Special Rehabilitation Unit,Specialist Rehabilitation,ALLIED_SPECIAL,Y,2024-07-01,2025-06-30
+CC_ADMIN,Patient Administration,All,PATIENT_ADMIN,Y,2024-07-01,2025-06-30
+CC_ICT,ICT Services,All,OVERHEAD,Y,2024-07-01,2025-06-30
+CC_FACILITIES,Facilities Management,All,OVERHEAD,Y,2024-07-01,2025-06-30
+CC_ORTHO,Orthopaedic Surgery,Surgical,PROSTHESIS_DIRECT,Y,2024-07-01,2025-06-30

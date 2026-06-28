@@ -1,0 +1,5 @@
+care_type,description
+Inpatient,Formal admitted care with one or more overnight stays
+Same-day,Formal admitted care with admission and discharge on the same day
+Emergency,Emergency department care
+Outpatient,Non-admitted scheduled care

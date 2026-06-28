@@ -1,0 +1,15 @@
+natural_account,account_description,cost_category,costing_treatment,default_driver,active_flag
+500100,Nursing salaries,Nursing,Indirect,bed_days,Y
+500110,Agency nursing expense,Nursing,Indirect,bed_days,Y
+500200,Medical salaries,Medical,Indirect,medical_service_units,Y
+510100,Theatre supplies and staffing,Theatre,Indirect,theatre_minutes,Y
+510200,Imaging services,Imaging,Indirect,imaging_weighted_units,Y
+510300,Pathology services,Pathology,Indirect,pathology_weighted_units,Y
+510400,Pharmaceuticals,Pharmacy,Indirect,pharmacy_units,Y
+510500,Allied health services,Allied Health,Indirect,allied_health_units,Y
+520100,Patient administration,Patient Administration,Indirect,encounter_count,Y
+530100,ICT services,Overhead,Overhead,pre_overhead_cost,Y
+530200,Facilities management,Overhead,Overhead,pre_overhead_cost,Y
+540100,Prostheses and implants,Prosthesis,Direct,direct_assignment,Y
+540200,Patient-specific pharmaceuticals,Pharmacy,Direct,direct_assignment,Y
+540300,Patient-specific imaging,Imaging,Direct,direct_assignment,Y

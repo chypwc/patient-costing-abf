@@ -1,0 +1,258 @@
+gl_transaction_id,reporting_month,entity,facility,cost_centre_id,natural_account,account_description,signed_amount,adjustment_type,source_reference
+GL00000001,2024-07-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500100,Nursing salaries,716108.90,Standard expense,MONTHLY-2024-07-01-CC_MED_WARD-500100
+GL00000002,2024-07-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500110,Agency nursing expense,42362.77,Standard expense,MONTHLY-2024-07-01-CC_MED_WARD-500110
+GL00000003,2024-07-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500100,Nursing salaries,672499.62,Standard expense,MONTHLY-2024-07-01-CC_SURG_WARD-500100
+GL00000004,2024-07-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500110,Agency nursing expense,37424.82,Standard expense,MONTHLY-2024-07-01-CC_SURG_WARD-500110
+GL00000005,2024-07-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500100,Nursing salaries,493254.47,Standard expense,MONTHLY-2024-07-01-CC_WCH_WARD-500100
+GL00000006,2024-07-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500110,Agency nursing expense,24657.40,Standard expense,MONTHLY-2024-07-01-CC_WCH_WARD-500110
+GL00000007,2024-07-01,Synthetic Health Service,Central Hospital,CC_MH_WARD,500100,Nursing salaries,375894.15,Standard expense,MONTHLY-2024-07-01-CC_MH_WARD-500100
+GL00000008,2024-07-01,Synthetic Health Service,Central Hospital,CC_EMERGENCY,500100,Nursing salaries,613198.30,Standard expense,MONTHLY-2024-07-01-CC_EMERGENCY-500100
+GL00000009,2024-07-01,Synthetic Health Service,Central Hospital,CC_OUTPATIENT,500100,Nursing salaries,246322.99,Standard expense,MONTHLY-2024-07-01-CC_OUTPATIENT-500100
+GL00000010,2024-07-01,Synthetic Health Service,Central Hospital,CC_MEDICAL,500200,Medical salaries,992849.94,Standard expense,MONTHLY-2024-07-01-CC_MEDICAL-500200
+GL00000011,2024-07-01,Synthetic Health Service,Central Hospital,CC_THEATRE,510100,Theatre supplies and staffing,538548.32,Standard expense,MONTHLY-2024-07-01-CC_THEATRE-510100
+GL00000012,2024-07-01,Synthetic Health Service,Central Hospital,CC_IMAGING,510200,Imaging services,251328.39,Standard expense,MONTHLY-2024-07-01-CC_IMAGING-510200
+GL00000013,2024-07-01,Synthetic Health Service,Central Hospital,CC_PATHOLOGY,510300,Pathology services,312724.04,Standard expense,MONTHLY-2024-07-01-CC_PATHOLOGY-510300
+GL00000014,2024-07-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,510400,Pharmaceuticals,370460.65,Standard expense,MONTHLY-2024-07-01-CC_PHARMACY-510400
+GL00000015,2024-07-01,Synthetic Health Service,Central Hospital,CC_ALLIED,510500,Allied health services,237322.44,Standard expense,MONTHLY-2024-07-01-CC_ALLIED-510500
+GL00000016,2024-07-01,Synthetic Health Service,Central Hospital,CC_ADMIN,520100,Patient administration,217532.81,Standard expense,MONTHLY-2024-07-01-CC_ADMIN-520100
+GL00000017,2024-07-01,Synthetic Health Service,Central Hospital,CC_ICT,530100,ICT services,188231.28,Standard expense,MONTHLY-2024-07-01-CC_ICT-530100
+GL00000018,2024-07-01,Synthetic Health Service,Central Hospital,CC_FACILITIES,530200,Facilities management,243797.17,Standard expense,MONTHLY-2024-07-01-CC_FACILITIES-530200
+GL00000019,2024-08-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500100,Nursing salaries,683849.30,Standard expense,MONTHLY-2024-08-01-CC_MED_WARD-500100
+GL00000020,2024-08-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500110,Agency nursing expense,40424.08,Standard expense,MONTHLY-2024-08-01-CC_MED_WARD-500110
+GL00000021,2024-08-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500100,Nursing salaries,664804.15,Standard expense,MONTHLY-2024-08-01-CC_SURG_WARD-500100
+GL00000022,2024-08-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500110,Agency nursing expense,38116.15,Standard expense,MONTHLY-2024-08-01-CC_SURG_WARD-500110
+GL00000023,2024-08-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500100,Nursing salaries,491824.06,Standard expense,MONTHLY-2024-08-01-CC_WCH_WARD-500100
+GL00000024,2024-08-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500110,Agency nursing expense,24882.13,Standard expense,MONTHLY-2024-08-01-CC_WCH_WARD-500110
+GL00000025,2024-08-01,Synthetic Health Service,Central Hospital,CC_MH_WARD,500100,Nursing salaries,372565.41,Standard expense,MONTHLY-2024-08-01-CC_MH_WARD-500100
+GL00000026,2024-08-01,Synthetic Health Service,Central Hospital,CC_EMERGENCY,500100,Nursing salaries,621712.61,Standard expense,MONTHLY-2024-08-01-CC_EMERGENCY-500100
+GL00000027,2024-08-01,Synthetic Health Service,Central Hospital,CC_OUTPATIENT,500100,Nursing salaries,258756.94,Standard expense,MONTHLY-2024-08-01-CC_OUTPATIENT-500100
+GL00000028,2024-08-01,Synthetic Health Service,Central Hospital,CC_MEDICAL,500200,Medical salaries,1028929.67,Standard expense,MONTHLY-2024-08-01-CC_MEDICAL-500200
+GL00000029,2024-08-01,Synthetic Health Service,Central Hospital,CC_THEATRE,510100,Theatre supplies and staffing,504689.30,Standard expense,MONTHLY-2024-08-01-CC_THEATRE-510100
+GL00000030,2024-08-01,Synthetic Health Service,Central Hospital,CC_IMAGING,510200,Imaging services,261125.32,Standard expense,MONTHLY-2024-08-01-CC_IMAGING-510200
+GL00000031,2024-08-01,Synthetic Health Service,Central Hospital,CC_PATHOLOGY,510300,Pathology services,308572.24,Standard expense,MONTHLY-2024-08-01-CC_PATHOLOGY-510300
+GL00000032,2024-08-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,510400,Pharmaceuticals,378849.16,Standard expense,MONTHLY-2024-08-01-CC_PHARMACY-510400
+GL00000033,2024-08-01,Synthetic Health Service,Central Hospital,CC_ALLIED,510500,Allied health services,246362.55,Standard expense,MONTHLY-2024-08-01-CC_ALLIED-510500
+GL00000034,2024-08-01,Synthetic Health Service,Central Hospital,CC_ADMIN,520100,Patient administration,222403.42,Standard expense,MONTHLY-2024-08-01-CC_ADMIN-520100
+GL00000035,2024-08-01,Synthetic Health Service,Central Hospital,CC_ICT,530100,ICT services,190233.21,Standard expense,MONTHLY-2024-08-01-CC_ICT-530100
+GL00000036,2024-08-01,Synthetic Health Service,Central Hospital,CC_FACILITIES,530200,Facilities management,234403.89,Standard expense,MONTHLY-2024-08-01-CC_FACILITIES-530200
+GL00000037,2024-09-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500100,Nursing salaries,720597.94,Standard expense,MONTHLY-2024-09-01-CC_MED_WARD-500100
+GL00000038,2024-09-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500110,Agency nursing expense,42090.51,Standard expense,MONTHLY-2024-09-01-CC_MED_WARD-500110
+GL00000039,2024-09-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500100,Nursing salaries,675044.56,Standard expense,MONTHLY-2024-09-01-CC_SURG_WARD-500100
+GL00000040,2024-09-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500110,Agency nursing expense,37347.79,Standard expense,MONTHLY-2024-09-01-CC_SURG_WARD-500110
+GL00000041,2024-09-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500100,Nursing salaries,490020.42,Standard expense,MONTHLY-2024-09-01-CC_WCH_WARD-500100
+GL00000042,2024-09-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500110,Agency nursing expense,24717.27,Standard expense,MONTHLY-2024-09-01-CC_WCH_WARD-500110
+GL00000043,2024-09-01,Synthetic Health Service,Central Hospital,CC_MH_WARD,500100,Nursing salaries,377762.40,Standard expense,MONTHLY-2024-09-01-CC_MH_WARD-500100
+GL00000044,2024-09-01,Synthetic Health Service,Central Hospital,CC_EMERGENCY,500100,Nursing salaries,604142.75,Standard expense,MONTHLY-2024-09-01-CC_EMERGENCY-500100
+GL00000045,2024-09-01,Synthetic Health Service,Central Hospital,CC_OUTPATIENT,500100,Nursing salaries,261518.77,Standard expense,MONTHLY-2024-09-01-CC_OUTPATIENT-500100
+GL00000046,2024-09-01,Synthetic Health Service,Central Hospital,CC_MEDICAL,500200,Medical salaries,1014201.03,Standard expense,MONTHLY-2024-09-01-CC_MEDICAL-500200
+GL00000047,2024-09-01,Synthetic Health Service,Central Hospital,CC_THEATRE,510100,Theatre supplies and staffing,539198.25,Standard expense,MONTHLY-2024-09-01-CC_THEATRE-510100
+GL00000048,2024-09-01,Synthetic Health Service,Central Hospital,CC_IMAGING,510200,Imaging services,251874.25,Standard expense,MONTHLY-2024-09-01-CC_IMAGING-510200
+GL00000049,2024-09-01,Synthetic Health Service,Central Hospital,CC_PATHOLOGY,510300,Pathology services,301724.68,Standard expense,MONTHLY-2024-09-01-CC_PATHOLOGY-510300
+GL00000050,2024-09-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,510400,Pharmaceuticals,375677.32,Standard expense,MONTHLY-2024-09-01-CC_PHARMACY-510400
+GL00000051,2024-09-01,Synthetic Health Service,Central Hospital,CC_ALLIED,510500,Allied health services,248320.04,Standard expense,MONTHLY-2024-09-01-CC_ALLIED-510500
+GL00000052,2024-09-01,Synthetic Health Service,Central Hospital,CC_ADMIN,520100,Patient administration,220944.89,Standard expense,MONTHLY-2024-09-01-CC_ADMIN-520100
+GL00000053,2024-09-01,Synthetic Health Service,Central Hospital,CC_ICT,530100,ICT services,187492.34,Standard expense,MONTHLY-2024-09-01-CC_ICT-530100
+GL00000054,2024-09-01,Synthetic Health Service,Central Hospital,CC_FACILITIES,530200,Facilities management,237964.22,Standard expense,MONTHLY-2024-09-01-CC_FACILITIES-530200
+GL00000055,2024-10-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500100,Nursing salaries,717915.31,Standard expense,MONTHLY-2024-10-01-CC_MED_WARD-500100
+GL00000056,2024-10-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500110,Agency nursing expense,42005.94,Standard expense,MONTHLY-2024-10-01-CC_MED_WARD-500110
+GL00000057,2024-10-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500100,Nursing salaries,663391.10,Standard expense,MONTHLY-2024-10-01-CC_SURG_WARD-500100
+GL00000058,2024-10-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500110,Agency nursing expense,36814.23,Standard expense,MONTHLY-2024-10-01-CC_SURG_WARD-500110
+GL00000059,2024-10-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500100,Nursing salaries,503885.92,Standard expense,MONTHLY-2024-10-01-CC_WCH_WARD-500100
+GL00000060,2024-10-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500110,Agency nursing expense,25645.18,Standard expense,MONTHLY-2024-10-01-CC_WCH_WARD-500110
+GL00000061,2024-10-01,Synthetic Health Service,Central Hospital,CC_MH_WARD,500100,Nursing salaries,386817.87,Standard expense,MONTHLY-2024-10-01-CC_MH_WARD-500100
+GL00000062,2024-10-01,Synthetic Health Service,Central Hospital,CC_EMERGENCY,500100,Nursing salaries,588455.53,Standard expense,MONTHLY-2024-10-01-CC_EMERGENCY-500100
+GL00000063,2024-10-01,Synthetic Health Service,Central Hospital,CC_OUTPATIENT,500100,Nursing salaries,256010.24,Standard expense,MONTHLY-2024-10-01-CC_OUTPATIENT-500100
+GL00000064,2024-10-01,Synthetic Health Service,Central Hospital,CC_MEDICAL,500200,Medical salaries,1059521.35,Standard expense,MONTHLY-2024-10-01-CC_MEDICAL-500200
+GL00000065,2024-10-01,Synthetic Health Service,Central Hospital,CC_THEATRE,510100,Theatre supplies and staffing,539017.49,Standard expense,MONTHLY-2024-10-01-CC_THEATRE-510100
+GL00000066,2024-10-01,Synthetic Health Service,Central Hospital,CC_IMAGING,510200,Imaging services,262169.30,Standard expense,MONTHLY-2024-10-01-CC_IMAGING-510200
+GL00000067,2024-10-01,Synthetic Health Service,Central Hospital,CC_PATHOLOGY,510300,Pathology services,305006.35,Standard expense,MONTHLY-2024-10-01-CC_PATHOLOGY-510300
+GL00000068,2024-10-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,510400,Pharmaceuticals,397845.59,Standard expense,MONTHLY-2024-10-01-CC_PHARMACY-510400
+GL00000069,2024-10-01,Synthetic Health Service,Central Hospital,CC_ALLIED,510500,Allied health services,247717.40,Standard expense,MONTHLY-2024-10-01-CC_ALLIED-510500
+GL00000070,2024-10-01,Synthetic Health Service,Central Hospital,CC_ADMIN,520100,Patient administration,227196.71,Standard expense,MONTHLY-2024-10-01-CC_ADMIN-520100
+GL00000071,2024-10-01,Synthetic Health Service,Central Hospital,CC_ICT,530100,ICT services,184226.54,Standard expense,MONTHLY-2024-10-01-CC_ICT-530100
+GL00000072,2024-10-01,Synthetic Health Service,Central Hospital,CC_FACILITIES,530200,Facilities management,245889.11,Standard expense,MONTHLY-2024-10-01-CC_FACILITIES-530200
+GL00000073,2024-11-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500100,Nursing salaries,723581.58,Standard expense,MONTHLY-2024-11-01-CC_MED_WARD-500100
+GL00000074,2024-11-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500110,Agency nursing expense,43253.60,Standard expense,MONTHLY-2024-11-01-CC_MED_WARD-500110
+GL00000075,2024-11-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500100,Nursing salaries,665969.39,Standard expense,MONTHLY-2024-11-01-CC_SURG_WARD-500100
+GL00000076,2024-11-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500110,Agency nursing expense,37991.66,Standard expense,MONTHLY-2024-11-01-CC_SURG_WARD-500110
+GL00000077,2024-11-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500100,Nursing salaries,495582.25,Standard expense,MONTHLY-2024-11-01-CC_WCH_WARD-500100
+GL00000078,2024-11-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500110,Agency nursing expense,25579.62,Standard expense,MONTHLY-2024-11-01-CC_WCH_WARD-500110
+GL00000079,2024-11-01,Synthetic Health Service,Central Hospital,CC_MH_WARD,500100,Nursing salaries,393768.61,Standard expense,MONTHLY-2024-11-01-CC_MH_WARD-500100
+GL00000080,2024-11-01,Synthetic Health Service,Central Hospital,CC_EMERGENCY,500100,Nursing salaries,615583.12,Standard expense,MONTHLY-2024-11-01-CC_EMERGENCY-500100
+GL00000081,2024-11-01,Synthetic Health Service,Central Hospital,CC_OUTPATIENT,500100,Nursing salaries,262027.62,Standard expense,MONTHLY-2024-11-01-CC_OUTPATIENT-500100
+GL00000082,2024-11-01,Synthetic Health Service,Central Hospital,CC_MEDICAL,500200,Medical salaries,1057679.09,Standard expense,MONTHLY-2024-11-01-CC_MEDICAL-500200
+GL00000083,2024-11-01,Synthetic Health Service,Central Hospital,CC_THEATRE,510100,Theatre supplies and staffing,535901.76,Standard expense,MONTHLY-2024-11-01-CC_THEATRE-510100
+GL00000084,2024-11-01,Synthetic Health Service,Central Hospital,CC_IMAGING,510200,Imaging services,264211.07,Standard expense,MONTHLY-2024-11-01-CC_IMAGING-510200
+GL00000085,2024-11-01,Synthetic Health Service,Central Hospital,CC_PATHOLOGY,510300,Pathology services,304887.90,Standard expense,MONTHLY-2024-11-01-CC_PATHOLOGY-510300
+GL00000086,2024-11-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,510400,Pharmaceuticals,387089.12,Standard expense,MONTHLY-2024-11-01-CC_PHARMACY-510400
+GL00000087,2024-11-01,Synthetic Health Service,Central Hospital,CC_ALLIED,510500,Allied health services,250369.13,Standard expense,MONTHLY-2024-11-01-CC_ALLIED-510500
+GL00000088,2024-11-01,Synthetic Health Service,Central Hospital,CC_ADMIN,520100,Patient administration,230341.55,Standard expense,MONTHLY-2024-11-01-CC_ADMIN-520100
+GL00000089,2024-11-01,Synthetic Health Service,Central Hospital,CC_ICT,530100,ICT services,183335.15,Standard expense,MONTHLY-2024-11-01-CC_ICT-530100
+GL00000090,2024-11-01,Synthetic Health Service,Central Hospital,CC_FACILITIES,530200,Facilities management,248061.93,Standard expense,MONTHLY-2024-11-01-CC_FACILITIES-530200
+GL00000091,2024-12-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500100,Nursing salaries,744299.25,Standard expense,MONTHLY-2024-12-01-CC_MED_WARD-500100
+GL00000092,2024-12-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500110,Agency nursing expense,42350.61,Standard expense,MONTHLY-2024-12-01-CC_MED_WARD-500110
+GL00000093,2024-12-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500100,Nursing salaries,658502.74,Standard expense,MONTHLY-2024-12-01-CC_SURG_WARD-500100
+GL00000094,2024-12-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500110,Agency nursing expense,37770.77,Standard expense,MONTHLY-2024-12-01-CC_SURG_WARD-500110
+GL00000095,2024-12-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500100,Nursing salaries,509773.66,Standard expense,MONTHLY-2024-12-01-CC_WCH_WARD-500100
+GL00000096,2024-12-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500110,Agency nursing expense,25287.32,Standard expense,MONTHLY-2024-12-01-CC_WCH_WARD-500110
+GL00000097,2024-12-01,Synthetic Health Service,Central Hospital,CC_MH_WARD,500100,Nursing salaries,397018.19,Standard expense,MONTHLY-2024-12-01-CC_MH_WARD-500100
+GL00000098,2024-12-01,Synthetic Health Service,Central Hospital,CC_EMERGENCY,500100,Nursing salaries,632278.15,Standard expense,MONTHLY-2024-12-01-CC_EMERGENCY-500100
+GL00000099,2024-12-01,Synthetic Health Service,Central Hospital,CC_OUTPATIENT,500100,Nursing salaries,259821.30,Standard expense,MONTHLY-2024-12-01-CC_OUTPATIENT-500100
+GL00000100,2024-12-01,Synthetic Health Service,Central Hospital,CC_MEDICAL,500200,Medical salaries,1084401.20,Standard expense,MONTHLY-2024-12-01-CC_MEDICAL-500200
+GL00000101,2024-12-01,Synthetic Health Service,Central Hospital,CC_THEATRE,510100,Theatre supplies and staffing,515925.42,Standard expense,MONTHLY-2024-12-01-CC_THEATRE-510100
+GL00000102,2024-12-01,Synthetic Health Service,Central Hospital,CC_IMAGING,510200,Imaging services,268375.23,Standard expense,MONTHLY-2024-12-01-CC_IMAGING-510200
+GL00000103,2024-12-01,Synthetic Health Service,Central Hospital,CC_PATHOLOGY,510300,Pathology services,320774.51,Standard expense,MONTHLY-2024-12-01-CC_PATHOLOGY-510300
+GL00000104,2024-12-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,510400,Pharmaceuticals,384260.35,Standard expense,MONTHLY-2024-12-01-CC_PHARMACY-510400
+GL00000105,2024-12-01,Synthetic Health Service,Central Hospital,CC_ALLIED,510500,Allied health services,253725.19,Standard expense,MONTHLY-2024-12-01-CC_ALLIED-510500
+GL00000106,2024-12-01,Synthetic Health Service,Central Hospital,CC_ADMIN,520100,Patient administration,221866.63,Standard expense,MONTHLY-2024-12-01-CC_ADMIN-520100
+GL00000107,2024-12-01,Synthetic Health Service,Central Hospital,CC_ICT,530100,ICT services,195932.73,Standard expense,MONTHLY-2024-12-01-CC_ICT-530100
+GL00000108,2024-12-01,Synthetic Health Service,Central Hospital,CC_FACILITIES,530200,Facilities management,237953.87,Standard expense,MONTHLY-2024-12-01-CC_FACILITIES-530200
+GL00000109,2025-01-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500100,Nursing salaries,728982.18,Standard expense,MONTHLY-2025-01-01-CC_MED_WARD-500100
+GL00000110,2025-01-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500110,Agency nursing expense,42136.62,Standard expense,MONTHLY-2025-01-01-CC_MED_WARD-500110
+GL00000111,2025-01-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500100,Nursing salaries,662211.99,Standard expense,MONTHLY-2025-01-01-CC_SURG_WARD-500100
+GL00000112,2025-01-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500110,Agency nursing expense,38347.55,Standard expense,MONTHLY-2025-01-01-CC_SURG_WARD-500110
+GL00000113,2025-01-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500100,Nursing salaries,505132.62,Standard expense,MONTHLY-2025-01-01-CC_WCH_WARD-500100
+GL00000114,2025-01-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500110,Agency nursing expense,25952.05,Standard expense,MONTHLY-2025-01-01-CC_WCH_WARD-500110
+GL00000115,2025-01-01,Synthetic Health Service,Central Hospital,CC_MH_WARD,500100,Nursing salaries,384832.59,Standard expense,MONTHLY-2025-01-01-CC_MH_WARD-500100
+GL00000116,2025-01-01,Synthetic Health Service,Central Hospital,CC_EMERGENCY,500100,Nursing salaries,630593.78,Standard expense,MONTHLY-2025-01-01-CC_EMERGENCY-500100
+GL00000117,2025-01-01,Synthetic Health Service,Central Hospital,CC_OUTPATIENT,500100,Nursing salaries,262774.50,Standard expense,MONTHLY-2025-01-01-CC_OUTPATIENT-500100
+GL00000118,2025-01-01,Synthetic Health Service,Central Hospital,CC_MEDICAL,500200,Medical salaries,1075459.36,Standard expense,MONTHLY-2025-01-01-CC_MEDICAL-500200
+GL00000119,2025-01-01,Synthetic Health Service,Central Hospital,CC_THEATRE,510100,Theatre supplies and staffing,531818.28,Standard expense,MONTHLY-2025-01-01-CC_THEATRE-510100
+GL00000120,2025-01-01,Synthetic Health Service,Central Hospital,CC_IMAGING,510200,Imaging services,265734.92,Standard expense,MONTHLY-2025-01-01-CC_IMAGING-510200
+GL00000121,2025-01-01,Synthetic Health Service,Central Hospital,CC_PATHOLOGY,510300,Pathology services,318618.10,Standard expense,MONTHLY-2025-01-01-CC_PATHOLOGY-510300
+GL00000122,2025-01-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,510400,Pharmaceuticals,384368.63,Standard expense,MONTHLY-2025-01-01-CC_PHARMACY-510400
+GL00000123,2025-01-01,Synthetic Health Service,Central Hospital,CC_ALLIED,510500,Allied health services,256742.23,Standard expense,MONTHLY-2025-01-01-CC_ALLIED-510500
+GL00000124,2025-01-01,Synthetic Health Service,Central Hospital,CC_ADMIN,520100,Patient administration,226072.86,Standard expense,MONTHLY-2025-01-01-CC_ADMIN-520100
+GL00000125,2025-01-01,Synthetic Health Service,Central Hospital,CC_ICT,530100,ICT services,186061.64,Standard expense,MONTHLY-2025-01-01-CC_ICT-530100
+GL00000126,2025-01-01,Synthetic Health Service,Central Hospital,CC_FACILITIES,530200,Facilities management,243312.92,Standard expense,MONTHLY-2025-01-01-CC_FACILITIES-530200
+GL00000127,2025-02-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500100,Nursing salaries,741438.57,Standard expense,MONTHLY-2025-02-01-CC_MED_WARD-500100
+GL00000128,2025-02-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500110,Agency nursing expense,41727.46,Standard expense,MONTHLY-2025-02-01-CC_MED_WARD-500110
+GL00000129,2025-02-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500100,Nursing salaries,677318.85,Standard expense,MONTHLY-2025-02-01-CC_SURG_WARD-500100
+GL00000130,2025-02-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500110,Agency nursing expense,38843.24,Standard expense,MONTHLY-2025-02-01-CC_SURG_WARD-500110
+GL00000131,2025-02-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500100,Nursing salaries,519587.28,Standard expense,MONTHLY-2025-02-01-CC_WCH_WARD-500100
+GL00000132,2025-02-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500110,Agency nursing expense,24807.40,Standard expense,MONTHLY-2025-02-01-CC_WCH_WARD-500110
+GL00000133,2025-02-01,Synthetic Health Service,Central Hospital,CC_MH_WARD,500100,Nursing salaries,385023.08,Standard expense,MONTHLY-2025-02-01-CC_MH_WARD-500100
+GL00000134,2025-02-01,Synthetic Health Service,Central Hospital,CC_EMERGENCY,500100,Nursing salaries,605984.11,Standard expense,MONTHLY-2025-02-01-CC_EMERGENCY-500100
+GL00000135,2025-02-01,Synthetic Health Service,Central Hospital,CC_OUTPATIENT,500100,Nursing salaries,258629.47,Standard expense,MONTHLY-2025-02-01-CC_OUTPATIENT-500100
+GL00000136,2025-02-01,Synthetic Health Service,Central Hospital,CC_MEDICAL,500200,Medical salaries,1048408.20,Standard expense,MONTHLY-2025-02-01-CC_MEDICAL-500200
+GL00000137,2025-02-01,Synthetic Health Service,Central Hospital,CC_THEATRE,510100,Theatre supplies and staffing,527579.96,Standard expense,MONTHLY-2025-02-01-CC_THEATRE-510100
+GL00000138,2025-02-01,Synthetic Health Service,Central Hospital,CC_IMAGING,510200,Imaging services,266458.43,Standard expense,MONTHLY-2025-02-01-CC_IMAGING-510200
+GL00000139,2025-02-01,Synthetic Health Service,Central Hospital,CC_PATHOLOGY,510300,Pathology services,322377.96,Standard expense,MONTHLY-2025-02-01-CC_PATHOLOGY-510300
+GL00000140,2025-02-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,510400,Pharmaceuticals,395936.84,Standard expense,MONTHLY-2025-02-01-CC_PHARMACY-510400
+GL00000141,2025-02-01,Synthetic Health Service,Central Hospital,CC_ALLIED,510500,Allied health services,257457.65,Standard expense,MONTHLY-2025-02-01-CC_ALLIED-510500
+GL00000142,2025-02-01,Synthetic Health Service,Central Hospital,CC_ADMIN,520100,Patient administration,224141.78,Standard expense,MONTHLY-2025-02-01-CC_ADMIN-520100
+GL00000143,2025-02-01,Synthetic Health Service,Central Hospital,CC_ICT,530100,ICT services,197313.10,Standard expense,MONTHLY-2025-02-01-CC_ICT-530100
+GL00000144,2025-02-01,Synthetic Health Service,Central Hospital,CC_FACILITIES,530200,Facilities management,250824.82,Standard expense,MONTHLY-2025-02-01-CC_FACILITIES-530200
+GL00000145,2025-03-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500100,Nursing salaries,749387.09,Standard expense,MONTHLY-2025-03-01-CC_MED_WARD-500100
+GL00000146,2025-03-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500110,Agency nursing expense,44094.03,Standard expense,MONTHLY-2025-03-01-CC_MED_WARD-500110
+GL00000147,2025-03-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500100,Nursing salaries,686565.27,Standard expense,MONTHLY-2025-03-01-CC_SURG_WARD-500100
+GL00000148,2025-03-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500110,Agency nursing expense,54527.35,Standard expense,MONTHLY-2025-03-01-CC_SURG_WARD-500110
+GL00000149,2025-03-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500100,Nursing salaries,509245.27,Standard expense,MONTHLY-2025-03-01-CC_WCH_WARD-500100
+GL00000150,2025-03-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500110,Agency nursing expense,26076.86,Standard expense,MONTHLY-2025-03-01-CC_WCH_WARD-500110
+GL00000151,2025-03-01,Synthetic Health Service,Central Hospital,CC_MH_WARD,500100,Nursing salaries,396874.91,Standard expense,MONTHLY-2025-03-01-CC_MH_WARD-500100
+GL00000152,2025-03-01,Synthetic Health Service,Central Hospital,CC_EMERGENCY,500100,Nursing salaries,633506.54,Standard expense,MONTHLY-2025-03-01-CC_EMERGENCY-500100
+GL00000153,2025-03-01,Synthetic Health Service,Central Hospital,CC_OUTPATIENT,500100,Nursing salaries,254456.11,Standard expense,MONTHLY-2025-03-01-CC_OUTPATIENT-500100
+GL00000154,2025-03-01,Synthetic Health Service,Central Hospital,CC_MEDICAL,500200,Medical salaries,1069311.45,Standard expense,MONTHLY-2025-03-01-CC_MEDICAL-500200
+GL00000155,2025-03-01,Synthetic Health Service,Central Hospital,CC_THEATRE,510100,Theatre supplies and staffing,743361.90,Standard expense,MONTHLY-2025-03-01-CC_THEATRE-510100
+GL00000156,2025-03-01,Synthetic Health Service,Central Hospital,CC_IMAGING,510200,Imaging services,257914.92,Standard expense,MONTHLY-2025-03-01-CC_IMAGING-510200
+GL00000157,2025-03-01,Synthetic Health Service,Central Hospital,CC_PATHOLOGY,510300,Pathology services,317560.56,Standard expense,MONTHLY-2025-03-01-CC_PATHOLOGY-510300
+GL00000158,2025-03-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,510400,Pharmaceuticals,409550.76,Standard expense,MONTHLY-2025-03-01-CC_PHARMACY-510400
+GL00000159,2025-03-01,Synthetic Health Service,Central Hospital,CC_ALLIED,510500,Allied health services,244915.73,Standard expense,MONTHLY-2025-03-01-CC_ALLIED-510500
+GL00000160,2025-03-01,Synthetic Health Service,Central Hospital,CC_ADMIN,520100,Patient administration,238917.36,Standard expense,MONTHLY-2025-03-01-CC_ADMIN-520100
+GL00000161,2025-03-01,Synthetic Health Service,Central Hospital,CC_ICT,530100,ICT services,186430.83,Standard expense,MONTHLY-2025-03-01-CC_ICT-530100
+GL00000162,2025-03-01,Synthetic Health Service,Central Hospital,CC_FACILITIES,530200,Facilities management,234909.05,Standard expense,MONTHLY-2025-03-01-CC_FACILITIES-530200
+GL00000163,2025-04-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500100,Nursing salaries,745742.08,Standard expense,MONTHLY-2025-04-01-CC_MED_WARD-500100
+GL00000164,2025-04-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500110,Agency nursing expense,44223.73,Standard expense,MONTHLY-2025-04-01-CC_MED_WARD-500110
+GL00000165,2025-04-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500100,Nursing salaries,714437.38,Standard expense,MONTHLY-2025-04-01-CC_SURG_WARD-500100
+GL00000166,2025-04-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500110,Agency nursing expense,39328.80,Standard expense,MONTHLY-2025-04-01-CC_SURG_WARD-500110
+GL00000167,2025-04-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500100,Nursing salaries,510167.11,Standard expense,MONTHLY-2025-04-01-CC_WCH_WARD-500100
+GL00000168,2025-04-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500110,Agency nursing expense,25162.32,Standard expense,MONTHLY-2025-04-01-CC_WCH_WARD-500110
+GL00000169,2025-04-01,Synthetic Health Service,Central Hospital,CC_MH_WARD,500100,Nursing salaries,411224.12,Standard expense,MONTHLY-2025-04-01-CC_MH_WARD-500100
+GL00000170,2025-04-01,Synthetic Health Service,Central Hospital,CC_EMERGENCY,500100,Nursing salaries,614527.17,Standard expense,MONTHLY-2025-04-01-CC_EMERGENCY-500100
+GL00000171,2025-04-01,Synthetic Health Service,Central Hospital,CC_OUTPATIENT,500100,Nursing salaries,263117.26,Standard expense,MONTHLY-2025-04-01-CC_OUTPATIENT-500100
+GL00000172,2025-04-01,Synthetic Health Service,Central Hospital,CC_MEDICAL,500200,Medical salaries,1097861.97,Standard expense,MONTHLY-2025-04-01-CC_MEDICAL-500200
+GL00000173,2025-04-01,Synthetic Health Service,Central Hospital,CC_THEATRE,510100,Theatre supplies and staffing,529110.02,Standard expense,MONTHLY-2025-04-01-CC_THEATRE-510100
+GL00000174,2025-04-01,Synthetic Health Service,Central Hospital,CC_IMAGING,510200,Imaging services,264529.00,Standard expense,MONTHLY-2025-04-01-CC_IMAGING-510200
+GL00000175,2025-04-01,Synthetic Health Service,Central Hospital,CC_PATHOLOGY,510300,Pathology services,311619.01,Standard expense,MONTHLY-2025-04-01-CC_PATHOLOGY-510300
+GL00000176,2025-04-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,510400,Pharmaceuticals,393446.98,Standard expense,MONTHLY-2025-04-01-CC_PHARMACY-510400
+GL00000177,2025-04-01,Synthetic Health Service,Central Hospital,CC_ALLIED,510500,Allied health services,248869.19,Standard expense,MONTHLY-2025-04-01-CC_ALLIED-510500
+GL00000178,2025-04-01,Synthetic Health Service,Central Hospital,CC_ADMIN,520100,Patient administration,241954.27,Standard expense,MONTHLY-2025-04-01-CC_ADMIN-520100
+GL00000179,2025-04-01,Synthetic Health Service,Central Hospital,CC_ICT,530100,ICT services,197610.45,Standard expense,MONTHLY-2025-04-01-CC_ICT-530100
+GL00000180,2025-04-01,Synthetic Health Service,Central Hospital,CC_FACILITIES,530200,Facilities management,234957.89,Standard expense,MONTHLY-2025-04-01-CC_FACILITIES-530200
+GL00000181,2025-05-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500100,Nursing salaries,721298.85,Standard expense,MONTHLY-2025-05-01-CC_MED_WARD-500100
+GL00000182,2025-05-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500110,Agency nursing expense,42210.50,Standard expense,MONTHLY-2025-05-01-CC_MED_WARD-500110
+GL00000183,2025-05-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500100,Nursing salaries,706278.74,Standard expense,MONTHLY-2025-05-01-CC_SURG_WARD-500100
+GL00000184,2025-05-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500110,Agency nursing expense,38500.56,Standard expense,MONTHLY-2025-05-01-CC_SURG_WARD-500110
+GL00000185,2025-05-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500100,Nursing salaries,524484.56,Standard expense,MONTHLY-2025-05-01-CC_WCH_WARD-500100
+GL00000186,2025-05-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500110,Agency nursing expense,24860.88,Standard expense,MONTHLY-2025-05-01-CC_WCH_WARD-500110
+GL00000187,2025-05-01,Synthetic Health Service,Central Hospital,CC_MH_WARD,500100,Nursing salaries,410967.35,Standard expense,MONTHLY-2025-05-01-CC_MH_WARD-500100
+GL00000188,2025-05-01,Synthetic Health Service,Central Hospital,CC_EMERGENCY,500100,Nursing salaries,623069.64,Standard expense,MONTHLY-2025-05-01-CC_EMERGENCY-500100
+GL00000189,2025-05-01,Synthetic Health Service,Central Hospital,CC_OUTPATIENT,500100,Nursing salaries,273843.84,Standard expense,MONTHLY-2025-05-01-CC_OUTPATIENT-500100
+GL00000190,2025-05-01,Synthetic Health Service,Central Hospital,CC_MEDICAL,500200,Medical salaries,1101008.18,Standard expense,MONTHLY-2025-05-01-CC_MEDICAL-500200
+GL00000191,2025-05-01,Synthetic Health Service,Central Hospital,CC_THEATRE,510100,Theatre supplies and staffing,536114.05,Standard expense,MONTHLY-2025-05-01-CC_THEATRE-510100
+GL00000192,2025-05-01,Synthetic Health Service,Central Hospital,CC_IMAGING,510200,Imaging services,274453.85,Standard expense,MONTHLY-2025-05-01-CC_IMAGING-510200
+GL00000193,2025-05-01,Synthetic Health Service,Central Hospital,CC_PATHOLOGY,510300,Pathology services,325490.84,Standard expense,MONTHLY-2025-05-01-CC_PATHOLOGY-510300
+GL00000194,2025-05-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,510400,Pharmaceuticals,409651.64,Standard expense,MONTHLY-2025-05-01-CC_PHARMACY-510400
+GL00000195,2025-05-01,Synthetic Health Service,Central Hospital,CC_ALLIED,510500,Allied health services,249997.54,Standard expense,MONTHLY-2025-05-01-CC_ALLIED-510500
+GL00000196,2025-05-01,Synthetic Health Service,Central Hospital,CC_ADMIN,520100,Patient administration,234182.59,Standard expense,MONTHLY-2025-05-01-CC_ADMIN-520100
+GL00000197,2025-05-01,Synthetic Health Service,Central Hospital,CC_ICT,530100,ICT services,195919.60,Standard expense,MONTHLY-2025-05-01-CC_ICT-530100
+GL00000198,2025-05-01,Synthetic Health Service,Central Hospital,CC_FACILITIES,530200,Facilities management,243827.04,Standard expense,MONTHLY-2025-05-01-CC_FACILITIES-530200
+GL00000199,2025-06-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500100,Nursing salaries,719359.75,Standard expense,MONTHLY-2025-06-01-CC_MED_WARD-500100
+GL00000200,2025-06-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500110,Agency nursing expense,43851.09,Standard expense,MONTHLY-2025-06-01-CC_MED_WARD-500110
+GL00000201,2025-06-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500100,Nursing salaries,673336.53,Standard expense,MONTHLY-2025-06-01-CC_SURG_WARD-500100
+GL00000202,2025-06-01,Synthetic Health Service,Central Hospital,CC_SURG_WARD,500110,Agency nursing expense,38828.29,Standard expense,MONTHLY-2025-06-01-CC_SURG_WARD-500110
+GL00000203,2025-06-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500100,Nursing salaries,500711.84,Standard expense,MONTHLY-2025-06-01-CC_WCH_WARD-500100
+GL00000204,2025-06-01,Synthetic Health Service,Central Hospital,CC_WCH_WARD,500110,Agency nursing expense,25498.08,Standard expense,MONTHLY-2025-06-01-CC_WCH_WARD-500110
+GL00000205,2025-06-01,Synthetic Health Service,Central Hospital,CC_MH_WARD,500100,Nursing salaries,389732.72,Standard expense,MONTHLY-2025-06-01-CC_MH_WARD-500100
+GL00000206,2025-06-01,Synthetic Health Service,Central Hospital,CC_EMERGENCY,500100,Nursing salaries,602756.07,Standard expense,MONTHLY-2025-06-01-CC_EMERGENCY-500100
+GL00000207,2025-06-01,Synthetic Health Service,Central Hospital,CC_OUTPATIENT,500100,Nursing salaries,261612.25,Standard expense,MONTHLY-2025-06-01-CC_OUTPATIENT-500100
+GL00000208,2025-06-01,Synthetic Health Service,Central Hospital,CC_MEDICAL,500200,Medical salaries,1037781.17,Standard expense,MONTHLY-2025-06-01-CC_MEDICAL-500200
+GL00000209,2025-06-01,Synthetic Health Service,Central Hospital,CC_THEATRE,510100,Theatre supplies and staffing,531528.58,Standard expense,MONTHLY-2025-06-01-CC_THEATRE-510100
+GL00000210,2025-06-01,Synthetic Health Service,Central Hospital,CC_IMAGING,510200,Imaging services,258819.66,Standard expense,MONTHLY-2025-06-01-CC_IMAGING-510200
+GL00000211,2025-06-01,Synthetic Health Service,Central Hospital,CC_PATHOLOGY,510300,Pathology services,307670.19,Standard expense,MONTHLY-2025-06-01-CC_PATHOLOGY-510300
+GL00000212,2025-06-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,510400,Pharmaceuticals,414043.90,Standard expense,MONTHLY-2025-06-01-CC_PHARMACY-510400
+GL00000213,2025-06-01,Synthetic Health Service,Central Hospital,CC_ALLIED,510500,Allied health services,252640.78,Standard expense,MONTHLY-2025-06-01-CC_ALLIED-510500
+GL00000214,2025-06-01,Synthetic Health Service,Central Hospital,CC_ADMIN,520100,Patient administration,240576.62,Standard expense,MONTHLY-2025-06-01-CC_ADMIN-520100
+GL00000215,2025-06-01,Synthetic Health Service,Central Hospital,CC_ICT,530100,ICT services,191107.99,Standard expense,MONTHLY-2025-06-01-CC_ICT-530100
+GL00000216,2025-06-01,Synthetic Health Service,Central Hospital,CC_FACILITIES,530200,Facilities management,240485.52,Standard expense,MONTHLY-2025-06-01-CC_FACILITIES-530200
+GL00000217,2024-07-01,Synthetic Health Service,Central Hospital,CC_IMAGING,540300,Patient-specific imaging,14398.37,Standard expense,DIRECT-CONTROL-2024-07-01-CC_IMAGING-540300
+GL00000218,2024-07-01,Synthetic Health Service,Central Hospital,CC_ORTHO,540100,Prostheses and implants,48780.70,Standard expense,DIRECT-CONTROL-2024-07-01-CC_ORTHO-540100
+GL00000219,2024-07-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,540200,Patient-specific pharmaceuticals,48237.66,Standard expense,DIRECT-CONTROL-2024-07-01-CC_PHARMACY-540200
+GL00000220,2024-08-01,Synthetic Health Service,Central Hospital,CC_IMAGING,540300,Patient-specific imaging,9437.88,Standard expense,DIRECT-CONTROL-2024-08-01-CC_IMAGING-540300
+GL00000221,2024-08-01,Synthetic Health Service,Central Hospital,CC_ORTHO,540100,Prostheses and implants,59329.44,Standard expense,DIRECT-CONTROL-2024-08-01-CC_ORTHO-540100
+GL00000222,2024-08-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,540200,Patient-specific pharmaceuticals,28507.95,Standard expense,DIRECT-CONTROL-2024-08-01-CC_PHARMACY-540200
+GL00000223,2024-09-01,Synthetic Health Service,Central Hospital,CC_IMAGING,540300,Patient-specific imaging,6382.48,Standard expense,DIRECT-CONTROL-2024-09-01-CC_IMAGING-540300
+GL00000224,2024-09-01,Synthetic Health Service,Central Hospital,CC_ORTHO,540100,Prostheses and implants,115169.13,Standard expense,DIRECT-CONTROL-2024-09-01-CC_ORTHO-540100
+GL00000225,2024-09-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,540200,Patient-specific pharmaceuticals,28613.43,Standard expense,DIRECT-CONTROL-2024-09-01-CC_PHARMACY-540200
+GL00000226,2024-10-01,Synthetic Health Service,Central Hospital,CC_IMAGING,540300,Patient-specific imaging,16192.71,Standard expense,DIRECT-CONTROL-2024-10-01-CC_IMAGING-540300
+GL00000227,2024-10-01,Synthetic Health Service,Central Hospital,CC_ORTHO,540100,Prostheses and implants,53348.78,Standard expense,DIRECT-CONTROL-2024-10-01-CC_ORTHO-540100
+GL00000228,2024-10-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,540200,Patient-specific pharmaceuticals,52272.04,Standard expense,DIRECT-CONTROL-2024-10-01-CC_PHARMACY-540200
+GL00000229,2024-11-01,Synthetic Health Service,Central Hospital,CC_IMAGING,540300,Patient-specific imaging,13235.42,Standard expense,DIRECT-CONTROL-2024-11-01-CC_IMAGING-540300
+GL00000230,2024-11-01,Synthetic Health Service,Central Hospital,CC_ORTHO,540100,Prostheses and implants,86029.21,Standard expense,DIRECT-CONTROL-2024-11-01-CC_ORTHO-540100
+GL00000231,2024-11-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,540200,Patient-specific pharmaceuticals,54459.73,Standard expense,DIRECT-CONTROL-2024-11-01-CC_PHARMACY-540200
+GL00000232,2024-12-01,Synthetic Health Service,Central Hospital,CC_IMAGING,540300,Patient-specific imaging,10589.23,Standard expense,DIRECT-CONTROL-2024-12-01-CC_IMAGING-540300
+GL00000233,2024-12-01,Synthetic Health Service,Central Hospital,CC_ORTHO,540100,Prostheses and implants,73810.86,Standard expense,DIRECT-CONTROL-2024-12-01-CC_ORTHO-540100
+GL00000234,2024-12-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,540200,Patient-specific pharmaceuticals,44015.92,Standard expense,DIRECT-CONTROL-2024-12-01-CC_PHARMACY-540200
+GL00000235,2025-01-01,Synthetic Health Service,Central Hospital,CC_IMAGING,540300,Patient-specific imaging,15723.36,Standard expense,DIRECT-CONTROL-2025-01-01-CC_IMAGING-540300
+GL00000236,2025-01-01,Synthetic Health Service,Central Hospital,CC_ORTHO,540100,Prostheses and implants,113956.42,Standard expense,DIRECT-CONTROL-2025-01-01-CC_ORTHO-540100
+GL00000237,2025-01-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,540200,Patient-specific pharmaceuticals,43118.54,Standard expense,DIRECT-CONTROL-2025-01-01-CC_PHARMACY-540200
+GL00000238,2025-02-01,Synthetic Health Service,Central Hospital,CC_IMAGING,540300,Patient-specific imaging,15952.72,Standard expense,DIRECT-CONTROL-2025-02-01-CC_IMAGING-540300
+GL00000239,2025-02-01,Synthetic Health Service,Central Hospital,CC_ORTHO,540100,Prostheses and implants,89058.14,Standard expense,DIRECT-CONTROL-2025-02-01-CC_ORTHO-540100
+GL00000240,2025-02-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,540200,Patient-specific pharmaceuticals,47256.19,Standard expense,DIRECT-CONTROL-2025-02-01-CC_PHARMACY-540200
+GL00000241,2025-03-01,Synthetic Health Service,Central Hospital,CC_IMAGING,540300,Patient-specific imaging,16114.52,Standard expense,DIRECT-CONTROL-2025-03-01-CC_IMAGING-540300
+GL00000242,2025-03-01,Synthetic Health Service,Central Hospital,CC_ORTHO,540100,Prostheses and implants,68835.69,Standard expense,DIRECT-CONTROL-2025-03-01-CC_ORTHO-540100
+GL00000243,2025-03-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,540200,Patient-specific pharmaceuticals,56833.02,Standard expense,DIRECT-CONTROL-2025-03-01-CC_PHARMACY-540200
+GL00000244,2025-04-01,Synthetic Health Service,Central Hospital,CC_IMAGING,540300,Patient-specific imaging,8454.82,Standard expense,DIRECT-CONTROL-2025-04-01-CC_IMAGING-540300
+GL00000245,2025-04-01,Synthetic Health Service,Central Hospital,CC_ORTHO,540100,Prostheses and implants,84618.69,Standard expense,DIRECT-CONTROL-2025-04-01-CC_ORTHO-540100
+GL00000246,2025-04-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,540200,Patient-specific pharmaceuticals,55819.51,Standard expense,DIRECT-CONTROL-2025-04-01-CC_PHARMACY-540200
+GL00000247,2025-05-01,Synthetic Health Service,Central Hospital,CC_IMAGING,540300,Patient-specific imaging,13595.15,Standard expense,DIRECT-CONTROL-2025-05-01-CC_IMAGING-540300
+GL00000248,2025-05-01,Synthetic Health Service,Central Hospital,CC_ORTHO,540100,Prostheses and implants,58771.61,Standard expense,DIRECT-CONTROL-2025-05-01-CC_ORTHO-540100
+GL00000249,2025-05-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,540200,Patient-specific pharmaceuticals,71462.17,Standard expense,DIRECT-CONTROL-2025-05-01-CC_PHARMACY-540200
+GL00000250,2025-06-01,Synthetic Health Service,Central Hospital,CC_IMAGING,540300,Patient-specific imaging,17082.08,Standard expense,DIRECT-CONTROL-2025-06-01-CC_IMAGING-540300
+GL00000251,2025-06-01,Synthetic Health Service,Central Hospital,CC_ORTHO,540100,Prostheses and implants,66342.03,Standard expense,DIRECT-CONTROL-2025-06-01-CC_ORTHO-540100
+GL00000252,2025-06-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,540200,Patient-specific pharmaceuticals,43931.01,Standard expense,DIRECT-CONTROL-2025-06-01-CC_PHARMACY-540200
+GL00000253,2024-11-01,Synthetic Health Service,Central Hospital,CC_PHARMACY,510400,Pharmaceuticals,-24000.00,Credit,Supplier credit
+GL00000254,2025-01-01,Synthetic Health Service,Central Hospital,CC_THEATRE,510100,Theatre supplies and staffing,-18000.00,Reversal,Reversal of duplicate accrual
+GL00000255,2025-04-01,Synthetic Health Service,Central Hospital,CC_MED_WARD,500110,Agency nursing expense,32000.00,Journal adjustment,Agency invoice true-up
+GL00000256,2025-06-01,Synthetic Health Service,Central Hospital,CC_ALLIED_UNUSED,510500,Allied health services,45000.00,Standard expense,Zero-driver test pool
+GL00000257,2025-02-01,Synthetic Health Service,Central Hospital,CC_UNKNOWN,510100,Theatre supplies and staffing,25000.00,Standard expense,Unmapped cost-centre test

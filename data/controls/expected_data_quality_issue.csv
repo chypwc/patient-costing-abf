@@ -1,0 +1,6 @@
+scenario_id,source_file,expected_issue,expected_treatment
+DQ001,patient_encounter.csv,Unclassified activity group,Non-blocking for costing; ABF funding requires review
+DQ002,resource_usage.csv,Negative pathology weighted units,Blocking for affected driver record
+DQ003,general_ledger_transaction.csv,Unmapped cost centre CC_UNKNOWN,Retain as unallocated cost
+DQ004,general_ledger_transaction.csv,ALLIED_SPECIAL cost pool has zero eligible driver units,Retain full pool as unallocated cost
+DQ005,direct_cost_detail.csv,Direct cost encounter ENC_NOT_FOUND does not exist,Failed direct assignment; retain as unallocated cost
