@@ -64,7 +64,7 @@ Landing versions store values as text and preserve source-row metadata. Staging 
 | `costing.cost_pool` | Monthly GL cost grouped by cost pool, cost category and allocation driver. |
 | `costing.encounter_driver` | Encounter-level driver units used to allocate shared cost pools. |
 | `costing.direct_cost_assignment` | Direct costs successfully assigned to valid encounters. |
-| `costing.cost_allocation` | Indirect and overhead costs allocated from cost pools to encounters. |
+| `costing.indirect_cost_allocation` | Indirect and overhead costs allocated from cost pools to encounters. |
 | `costing.patient_level_cost` | Final patient-level cost by encounter/month with direct, indirect, overhead and total cost. |
 | `costing.unallocated_cost` | Costs retained for review because they could not be safely assigned or allocated. |
 | `costing.abf_comparison` | Patient-level cost compared with synthetic ABF-style funding estimate. |
@@ -73,7 +73,11 @@ Landing versions store values as text and preserve source-row metadata. Staging 
 
 | Object | Description |
 |---|---|
-| `recon.costing_reconciliation` | Reconciles GL cost to direct assigned, indirect allocated, overhead allocated, unallocated and excluded amounts. |
+| `recon.costing_reconciliation` | Reconciles GL cost to direct assigned, indirect allocated, overhead allocated, unallocated and excluded amounts at `TOTAL` and `COST_POOL` levels. |
+
+`TOTAL` rows prove the whole-run control total. `COST_POOL` rows support Excel
+slicing by reporting month, facility, cost centre, cost pool and cost category.
+Do not aggregate both levels together in the same PivotTable.
 
 ## Reporting Views
 
@@ -81,7 +85,7 @@ Landing versions store values as text and preserve source-row metadata. Staging 
 |---|---|
 | `reporting.vw_fact_patient_cost` | Main Excel fact view for patient-level cost analysis. |
 | `reporting.vw_fact_abf_comparison` | Excel fact view for patient cost versus synthetic ABF funding. |
-| `reporting.vw_fact_reconciliation` | Excel fact view for reconciliation and financial control reporting. |
+| `reporting.vw_fact_reconciliation` | Excel fact view for reconciliation and financial control reporting. Includes both `TOTAL` and `COST_POOL` levels. |
 | `reporting.vw_fact_data_quality_issue` | Excel fact view for data-quality issue reporting. |
 | `reporting.vw_dim_month` | Month/period dimension for slicers and relationships. |
 | `reporting.vw_dim_facility` | Facility dimension. |
@@ -89,6 +93,9 @@ Landing versions store values as text and preserve source-row metadata. Staging 
 | `reporting.vw_dim_care_type` | Care-type dimension. |
 | `reporting.vw_dim_activity_group` | Activity-group dimension. |
 | `reporting.vw_dim_cost_category` | Cost-category dimension for reconciliation reporting. |
+
+These are views shaped for Excel's Data Model. They are not separate physical
+fact and dimension tables in SQL Server.
 
 ## Key Measures
 
@@ -103,4 +110,3 @@ Landing versions store values as text and preserve source-row metadata. Staging 
 | `cost_funding_variance` | Patient cost minus synthetic funding. Positive values indicate cost above synthetic funding. |
 | `unallocated_amount` | Cost retained for review rather than allocated without a valid rule or driver. |
 | `reconciliation_difference` | Difference between GL control total and explained costing disposition. |
-

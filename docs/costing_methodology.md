@@ -218,24 +218,23 @@ Directly assigned cost
 + Reconciliation difference
 ```
 
-Reconciliation is performed by:
+Reconciliation is stored at two levels:
 
-- reporting period;
-- facility;
-- cost centre;
-- cost pool;
-- cost category;
-- total costing run.
+| Level | Meaning |
+|---|---|
+| `TOTAL` | Whole-run reconciliation from GL amount to direct assigned, indirect allocated, overhead, unallocated, excluded and reconciliation difference. |
+| `COST_POOL` | Detailed reconciliation by reporting month, facility, cost centre, cost pool and cost category. |
+
+Excel uses the `TOTAL` level for the headline control table and the `COST_POOL`
+level for slicers and cost-category review. The two levels must not be summed
+together.
 
 The status rules are:
 
 | Status | Rule |
 |---|---|
-| Pass | Absolute difference is at most `$1.00` and absolute percentage difference is at most `0.01%` |
-| Review | All costs have a known disposition, but either tolerance is exceeded |
-| Fail | A blocking control prevents a complete costing disposition or the difference cannot be explained |
-
-Both the dollar and percentage tolerance must be met for `Pass`. If the comparison GL total is zero, percentage difference is not calculated and the dollar rule plus disposition review applies.
+| Pass | Absolute difference is at most `$1.00` |
+| Review | The row is retained for review, usually because a detailed cost-pool row has an unresolved mapping, allocation or unallocated-cost treatment |
 
 Approved exclusions, adjustments and unallocated costs do not disappear from reconciliation; they are separate, visible components of the equation.
 

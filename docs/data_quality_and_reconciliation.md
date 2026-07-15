@@ -140,22 +140,23 @@ Each issue will contain:
 - effect on interpretation;
 - created and resolved timestamps.
 
-## 11. Publication Gates
+## 11. Reporting Readiness Gates
 
-Reporting views will not be published for a costing run when:
+The reporting views can be created as database objects at any time, but a run
+should only be used for workbook reporting when:
 
-- source GL totals do not agree with control totals;
-- duplicate financial records create an unresolved financial overstatement;
-- material cost-centre or account mappings are missing;
-- an affected cost pool has no valid allocation rule;
-- unexplained reconciliation difference causes a `Fail`;
-- the load run is incomplete or not approved for reporting.
+- source row counts and GL totals have been checked;
+- blocking promotion failures are reviewed;
+- material mapping issues are visible in the DQ issue register or unallocated-cost table;
+- zero-driver pools are retained as unallocated rather than spread without a driver;
+- reconciliation differences are immaterial or explained;
+- the load run is complete.
 
 Non-blocking warnings may proceed when they are recorded and visible in the workbook.
 
 ## 12. Reconciliation Evidence
 
-For every costing run, the project will store:
+For every costing run, the project stores:
 
 - source row counts;
 - source GL totals;
@@ -168,4 +169,12 @@ For every costing run, the project will store:
 - reconciliation difference and percentage;
 - status at each required reconciliation level.
 
-The Excel workbook must agree with the approved SQL reconciliation result.
+`recon.costing_reconciliation` stores:
+
+| Level | Purpose |
+|---|---|
+| `TOTAL` | Whole-run GL control proof. |
+| `COST_POOL` | Detailed reconciliation by month, facility, cost centre, cost pool and cost category. |
+
+The Excel workbook must agree with the SQL reconciliation result and must not
+sum `TOTAL` and `COST_POOL` rows together.

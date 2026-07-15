@@ -30,6 +30,9 @@ Run the SQL scripts in order:
 8. `sql/07_build_costing_outputs.sql`
 9. `sql/09_create_reporting_views.sql`
 
+Reconciliation is built inside `sql/07_build_costing_outputs.sql`. There is no
+separate `08_reconcile_costing.sql` script in the final numbered workflow.
+
 If tables already exist, confirm whether the script is intended to be rerun safely. For a clean rebuild, drop only the project tables that are in scope and then rerun the scripts from table creation onward.
 
 ## Reference Data Approach
@@ -70,6 +73,13 @@ After costing outputs are built, confirm:
 
 Confirm that reconciliation status is `PASS` and that the total reconciliation difference is immaterial rounding only.
 
+The reconciliation output has two levels:
+
+- `TOTAL` for the whole-run control proof.
+- `COST_POOL` for cost-category and cost-pool review in Excel.
+
+Do not add `TOTAL` and `COST_POOL` rows together in Excel.
+
 | Measure | Expected value |
 |---|---:|
 | GL amount | $82,837,467.56 |
@@ -78,6 +88,13 @@ Confirm that reconciliation status is `PASS` and that the total reconciliation d
 | Overhead allocated amount | $5,180,282.29 |
 | Unallocated amount | $70,900.00 |
 | Reconciliation difference | approximately $0.00 |
+
+Expected row shape:
+
+| Reconciliation level | Expected row count |
+|---|---:|
+| `TOTAL` | 1 |
+| `COST_POOL` | many detail rows |
 
 ## Excel Refresh
 
@@ -88,7 +105,8 @@ Confirm that reconciliation status is `PASS` and that the total reconciliation d
 5. Confirm PivotTables and PivotCharts update.
 6. Check workbook totals against the SQL control totals.
 
-Excel should consume the `reporting` views only. It should not recreate allocation, validation or reconciliation logic.
+Excel should consume the `reporting.vw_fact_*` and `reporting.vw_dim_*` views
+only. It should not recreate allocation, validation or reconciliation logic.
 
 ## Known Review Items
 
@@ -97,4 +115,3 @@ Excel should consume the `reporting` views only. It should not recreate allocati
 - One GL transaction with unknown cost centre.
 - One zero-driver cost pool retained as unallocated.
 - One unclassified activity group retained as `UNFUNDED_REVIEW` in ABF comparison.
-

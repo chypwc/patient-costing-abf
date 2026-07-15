@@ -21,10 +21,10 @@ stg typed transactions          ref typed mappings and rules
 costing  Cost pools, drivers, allocations and patient-level cost
                     |
                     v
-recon    GL control totals and GL-to-costing reconciliation
+recon    GL-to-costing reconciliation at TOTAL and COST_POOL levels
                     |
                     v
-reporting  Excel-ready views
+reporting  Excel-ready fact and dimension views
 ```
 
 ## Schema Responsibilities
@@ -36,8 +36,25 @@ reporting  Excel-ready views
 | `ref` | Validated, typed mappings and business rules | `ref.cost_centre`, `ref.allocation_rule` |
 | `dq` | Load audit, source controls, validation outcomes and issue management | `dq.load_run`, `dq.source_file_control`, `dq.validation_result`, `dq.issue_register` |
 | `costing` | Costing calculations and patient-level results only | `costing.cost_pool`, `costing.encounter_driver`, `costing.patient_level_cost` |
-| `recon` | Financial control totals and GL-to-costing reconciliation | `recon.gl_control_total`, `recon.costing_reconciliation` |
-| `reporting` | Curated views for Excel and management reporting | `reporting.vw_executive_costing_summary` |
+| `recon` | GL-to-costing reconciliation evidence | `recon.costing_reconciliation` |
+| `reporting` | Excel-ready fact and dimension views | `reporting.vw_fact_patient_cost`, `reporting.vw_dim_service_line` |
+
+## Final Reporting Model
+
+The project does not build separate physical star-schema tables in SQL Server.
+Instead, SQL Server publishes Excel-ready views from the `reporting` schema.
+Excel loads those views into the Power Query / Power Pivot Data Model and uses
+relationships, slicers, PivotTables and PivotCharts for presentation.
+
+The final reporting views are:
+
+| View type | Views |
+|---|---|
+| Fact views | `reporting.vw_fact_patient_cost`, `reporting.vw_fact_abf_comparison`, `reporting.vw_fact_reconciliation`, `reporting.vw_fact_data_quality_issue` |
+| Dimension views | `reporting.vw_dim_month`, `reporting.vw_dim_facility`, `reporting.vw_dim_service_line`, `reporting.vw_dim_care_type`, `reporting.vw_dim_activity_group`, `reporting.vw_dim_cost_category` |
+
+Excel should consume these views only. It should not recreate patient-cost
+allocation, data-quality validation, ABF comparison or reconciliation logic.
 
 ## Why Validation Is Not in `costing`
 
@@ -82,3 +99,14 @@ TRY_CONVERT(date, admission_date)
 Only rows meeting the required promotion rules enter typed `stg` or `ref`
 tables. Typed tables remain the trusted inputs to costing.
 
+## Reconciliation Grain
+
+`recon.costing_reconciliation` contains two reconciliation levels:
+
+| Level | Purpose | Excel use |
+|---|---|---|
+| `TOTAL` | Whole-run GL control proof | Headline reconciliation table only |
+| `COST_POOL` | Detailed reconciliation by reporting month, facility, cost centre, cost pool and cost category | Cost-category / cost-pool analysis and slicers |
+
+Do not sum `TOTAL` and `COST_POOL` rows together in the same PivotTable. That
+will double-count the reconciliation amounts.
