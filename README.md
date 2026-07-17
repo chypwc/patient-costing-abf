@@ -67,28 +67,33 @@ The Excel workbook contains six sheets:
 
 ## Costing and Reconciliation Workflow
 
-1. **Prepare and validate source data**
-   - Load general-ledger, encounter, direct-cost and resource-use data.
-   - Validate required fields, mappings, dates, duplicates and allocation drivers.
-   - Record unresolved issues without silently removing affected costs.
+1. **Load and promote source data**
+   - Load general-ledger, encounter, direct-cost and resource-use extracts into landing tables.
+   - Promote valid rows into typed staging tables, including `stg.general_ledger_transaction` as the GL financial base.
+   - Record data-quality issues for rows or mappings that require review.
 
-2. **Calculate patient-level costs**
-   - Assign encounter-identifiable costs directly.
-   - Allocate shared clinical costs using documented activity drivers.
-   - Allocate approved overhead using the pre-overhead patient-care cost base.
-   - Retain failed assignments and zero-driver amounts as unallocated costs.
+2. **Build governed cost pools from GL**
+   - Group staged GL spend into `costing.cost_pool` by reporting month, facility, cost centre and natural account.
+   - Use reference mappings to derive the cost pool, cost category, costing treatment and allocation driver.
+   - Keep unmapped or review items visible instead of forcing them into patient cost.
 
-3. **Reconcile costing results**
-   - Reconcile general-ledger expenditure to direct, indirect, overhead, unallocated and excluded amounts.
-   - Validate whole-of-run totals and detailed cost-pool results.
-   - Preserve reconciliation exceptions for review and management reporting.
+3. **Calculate patient-level costs**
+   - Assign encounter-identifiable costs into `costing.direct_cost_assignment`.
+   - Allocate indirect clinical cost pools using activity drivers such as bed days, theatre minutes and weighted service units.
+   - Allocate approved overhead after direct and indirect costs using pre-overhead patient cost as the allocation base.
+   - Retain failed assignments, unmapped GL and zero-driver cost pools in `costing.unallocated_cost`.
 
-4. **Compare cost with ABF-style funding**
+4. **Reconcile costing results**
+   - Reconcile GL expenditure to direct assigned, indirect allocated, overhead allocated, unallocated and excluded amounts.
+   - Store detailed `COST_POOL` reconciliation rows for analysis by month, cost centre, cost pool and cost category.
+   - Store a separate `TOTAL` reconciliation row as the whole-run control proof.
+
+5. **Compare cost with ABF-style funding**
    - Apply a clearly labelled simulated funding rate to each eligible encounter.
    - Compare patient-level cost with estimated funding.
    - Aggregate the comparison by service line, activity group and reporting period.
 
-5. **Analyse cost and funding variance**
+6. **Analyse cost and funding variance**
    - Identify cost-versus-funding differences, monthly movements and high-cost encounters.
    - Examine activity volume, unit cost, resource drivers and data-quality impacts.
    - Present findings with clinical complexity, quality and service context, rather than interpreting cost in isolation.
