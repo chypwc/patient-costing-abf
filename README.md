@@ -65,23 +65,33 @@ The Excel workbook contains six sheets:
 5. **Reconciliation and Data Quality** — GL reconciliation and open DQ issues.
 6. **Methodology and Controls** — disclaimers, costing method and control notes.
 
-## Validated SQL Reconciliation Totals
+## Costing and Reconciliation Workflow
 
-| Measure | Value |
-|---|---:|
-| Patient-level cost | $78,818,041.68 |
-| Direct cost | $1,648,836.61 |
-| Indirect allocated cost | $71,988,922.78 |
-| Overhead allocated cost | $5,180,282.29 |
-| General-ledger amount | $82,837,467.56 |
-| Unallocated cost | $70,900.00 |
-| Reconciliation difference | approximately $0.00 |
-| Encounters | 6,345 |
-| High-cost encounters | 321 |
-| Open data-quality issues | 4 |
-| Data-quality financial impact | $70,900.00 |
-| Synthetic ABF funding | $80,361,717.04 |
-| Cost less synthetic funding | ($1,549,090.27) |
+1. **Prepare and validate source data**
+   - Load general-ledger, encounter, direct-cost and resource-use data.
+   - Validate required fields, mappings, dates, duplicates and allocation drivers.
+   - Record unresolved issues without silently removing affected costs.
+
+2. **Calculate patient-level costs**
+   - Assign encounter-identifiable costs directly.
+   - Allocate shared clinical costs using documented activity drivers.
+   - Allocate approved overhead using the pre-overhead patient-care cost base.
+   - Retain failed assignments and zero-driver amounts as unallocated costs.
+
+3. **Reconcile costing results**
+   - Reconcile general-ledger expenditure to direct, indirect, overhead, unallocated and excluded amounts.
+   - Validate whole-of-run totals and detailed cost-pool results.
+   - Preserve reconciliation exceptions for review and management reporting.
+
+4. **Compare cost with ABF-style funding**
+   - Apply a clearly labelled simulated funding rate to each eligible encounter.
+   - Compare patient-level cost with estimated funding.
+   - Aggregate the comparison by service line, activity group and reporting period.
+
+5. **Analyse cost and funding variance**
+   - Identify cost-versus-funding differences, monthly movements and high-cost encounters.
+   - Examine activity volume, unit cost, resource drivers and data-quality impacts.
+   - Present findings with clinical complexity, quality and service context, rather than interpreting cost in isolation.
 
 ## Technology Used
 
