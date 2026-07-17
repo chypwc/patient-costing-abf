@@ -75,8 +75,7 @@ The `dq` schema can record:
 
 Reconciliation is an assurance process that compares:
 
-- source control totals with loaded GL totals; and
-- GL costs with direct, allocated, unallocated and excluded costing outcomes.
+- loaded GL transactions with direct, allocated, unallocated and excluded costing outcomes.
 
 It tests the costing model but is not itself an allocation calculation.
 Separating it under `recon` makes financial control evidence easier to review.

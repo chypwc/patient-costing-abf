@@ -32,13 +32,17 @@ found and exit code `1` when a consistency failure is detected.
 |---|---|---|
 | `data/raw/` | Source-like clinical, resource, direct-cost and GL extracts | Load into `landing`, validate, then promote to `stg` |
 | `data/reference/` | Controlled mappings, classifications and costing or ABF rules | Load into `landing`, validate, then promote to `ref` |
-| `data/controls/` | Row-count controls, financial controls, expected exceptions and generation manifests | Use for load and test validation |
 | `data/expected_outputs/` | Independently generated ABF results used to test SQL calculations | Do not use as production source input |
 
 Only `raw/` and `reference/` are normal batch-load inputs. They first enter
 nullable-text landing tables. SQL validates and promotes accepted rows into
 typed `stg` and `ref` tables, calculates patient costs and ABF results, then
 compares them with `expected_outputs/` during testing.
+
+The final SQL workflow does not load separate financial-control CSV files.
+Financial assurance is provided by reconciling loaded GL transactions to
+direct assigned, indirect allocated, overhead allocated and unallocated costing
+outputs.
 
 ## 4. Shared Population
 
@@ -189,24 +193,20 @@ These codes are not official AR-DRGs.
 | Multi-month admitted encounter | Use separate encounter-month resource records |
 | Credits, reversals and journal adjustments | Preserve signed values and classify rather than reject automatically |
 
-## 10. Control Outputs
+## 10. Validation Outputs
 
-The patient-costing generator creates:
+The final repository keeps the generated source data in `data/raw/`, governed
+configuration in `data/reference/`, and ABF expected outputs in
+`data/expected_outputs/`.
 
-- `control_row_count.csv`;
-- `control_gl_monthly.csv`;
-- `control_gl_cost_centre.csv`;
-- `patient_costing_generation_manifest.json`;
-- `expected_data_quality_issue.csv`.
-
-These files are written to `data/controls/`. Generation manifests are also
-stored there.
-
-These controls will be loaded or independently checked during SQL ingestion.
+Separate financial-control CSV files are not part of the final SQL load. SQL
+records source row-count controls in `dq.source_file_control` during loading
+and uses `recon.costing_reconciliation` to prove that loaded GL transactions
+are explained by direct assignment, allocation, overhead and unallocated cost.
 
 The independent validator `scripts/validate_synthetic_data.py` reads both data
 layers without modifying them. It checks contracts, keys, relationships,
-distributions, financial controls, deliberate exceptions and ABF arithmetic,
+distributions, deliberate exceptions and ABF arithmetic,
 then writes:
 
 - `outputs/validation/synthetic_data_validation_report.md`;
@@ -220,8 +220,7 @@ The ABF generator reads `data/raw/patient_encounter.csv` and produces:
 
 - ABF reference files in `data/reference/`;
 - `abf_encounter_funding.csv` in `data/expected_outputs/`;
-- `abf_monthly_control_total.csv` in `data/expected_outputs/`;
-- `abf_generation_manifest.json` in `data/controls/`.
+- `abf_monthly_control_total.csv` in `data/expected_outputs/`.
 
 The simplified calculation is:
 

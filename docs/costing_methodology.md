@@ -2,7 +2,7 @@
 
 ## 1. Objective
 
-The costing model converts synthetic general-ledger expenditure, clinical encounters and resource-use records into traceable patient-level costs. It prioritises direct assignment, uses documented drivers for shared costs, preserves unresolved amounts and reconciles all financial values to source control totals.
+The costing model converts synthetic general-ledger expenditure, clinical encounters and resource-use records into traceable patient-level costs. It prioritises direct assignment, uses documented drivers for shared costs, preserves unresolved amounts and reconciles costing outputs back to the loaded GL transactions.
 
 ## 2. Source-to-Reporting Workflow
 
@@ -13,7 +13,7 @@ Synthetic clinical, resource and GL extracts
 landing text tables
         |
         v
-dq validation and source controls
+dq validation and source-file controls
         |
         v
 typed stg transactions and ref rules
@@ -43,7 +43,7 @@ Each monthly costing run will:
 
 1. create a load-run record;
 2. load and validate clinical, resource and financial inputs;
-3. compare row counts and financial totals with source controls;
+3. record source row-count controls and validate financial mappings;
 4. map GL transactions to cost centres, cost categories and cost pools;
 5. assign encounter-identifiable costs directly;
 6. calculate encounter driver units for shared cost pools;

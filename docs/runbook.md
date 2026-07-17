@@ -103,7 +103,7 @@ Expected row shape:
 3. Select **Refresh All**.
 4. Confirm Power Query connections refresh successfully.
 5. Confirm PivotTables and PivotCharts update.
-6. Check workbook totals against the SQL control totals.
+6. Check workbook totals against the SQL reconciliation totals.
 
 Excel should consume the `reporting.vw_fact_*` and `reporting.vw_dim_*` views
 only. It should not recreate allocation, validation or reconciliation logic.

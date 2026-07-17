@@ -145,7 +145,7 @@ Each issue will contain:
 The reporting views can be created as database objects at any time, but a run
 should only be used for workbook reporting when:
 
-- source row counts and GL totals have been checked;
+- source row counts have been checked and loaded GL transactions are available;
 - blocking promotion failures are reviewed;
 - material mapping issues are visible in the DQ issue register or unallocated-cost table;
 - zero-driver pools are retained as unallocated rather than spread without a driver;
@@ -159,8 +159,8 @@ Non-blocking warnings may proceed when they are recorded and visible in the work
 For every costing run, the project stores:
 
 - source row counts;
-- source GL totals;
-- mapped and unmapped GL totals;
+- loaded GL totals;
+- mapped and unmapped GL amounts;
 - direct-cost totals;
 - indirect-allocation totals;
 - overhead totals;

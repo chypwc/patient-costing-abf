@@ -116,7 +116,7 @@ The approved SQL design uses seven schemas:
 | `ref` | Validated and typed mappings, classifications, periods and rules |
 | `dq` | Load audit, controls, validation outcomes and issue management |
 | `costing` | Cost pools, drivers, allocations and patient-level results |
-| `recon` | Source financial controls and GL-to-costing reconciliation |
+| `recon` | GL-to-costing reconciliation evidence |
 | `reporting` | Curated views consumed by Excel |
 
 The design deliberately separates data quality and reconciliation from costing calculations.

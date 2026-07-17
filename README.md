@@ -16,6 +16,7 @@ All data is synthetic and generated for portfolio demonstration. It does not rep
 - Patient-level cost model using direct assignment, indirect allocation and overhead allocation.
 - Data-quality issue register with blocking and non-blocking validation outcomes.
 - Reconciliation from general ledger expenditure to direct, allocated, overhead and unallocated cost.
+- Excel-ready `vw_fact_*` and `vw_dim_*` reporting views for the workbook Data Model.
 - Synthetic ABF-style cost-versus-funding comparison.
 - Excel workbook with Power Query, Data Model relationships, PivotTables, PivotCharts and slicers.
 
@@ -31,6 +32,28 @@ All data is synthetic and generated for portfolio demonstration. It does not rep
 | [`docs/costing_methodology.md`](docs/costing_methodology.md) | Detailed costing method, cost pools and allocation drivers. |
 | [`docs/data_quality_and_reconciliation.md`](docs/data_quality_and_reconciliation.md) | Data-quality and reconciliation design. |
 
+## Final Reporting Model
+
+SQL Server publishes Excel-ready fact and dimension views in the `reporting`
+schema. These are views, not separate physical star-schema tables. Excel loads
+them into the Data Model for relationships, slicers, PivotTables and charts.
+
+Fact views:
+
+- `reporting.vw_fact_patient_cost`
+- `reporting.vw_fact_abf_comparison`
+- `reporting.vw_fact_reconciliation`
+- `reporting.vw_fact_data_quality_issue`
+
+Dimension views:
+
+- `reporting.vw_dim_month`
+- `reporting.vw_dim_facility`
+- `reporting.vw_dim_service_line`
+- `reporting.vw_dim_care_type`
+- `reporting.vw_dim_activity_group`
+- `reporting.vw_dim_cost_category`
+
 ## Workbook Structure
 
 The Excel workbook contains six sheets:
@@ -42,7 +65,7 @@ The Excel workbook contains six sheets:
 5. **Reconciliation and Data Quality** — GL reconciliation and open DQ issues.
 6. **Methodology and Controls** — disclaimers, costing method and control notes.
 
-## Validated Control Totals
+## Validated SQL Reconciliation Totals
 
 | Measure | Value |
 |---|---:|
@@ -73,4 +96,3 @@ The Excel workbook contains six sheets:
 ## Important Caveats
 
 This is a portfolio-scale simulation, not a production costing system, National Hospital Cost Data Collection submission, official IHACPA model or jurisdictional ABF funding model. Cost should be interpreted alongside clinical context, safety, quality, patient complexity and service obligations.
-
